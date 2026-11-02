@@ -1,0 +1,3 @@
+URL: https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/gyosei-jimu_r06.html
+取得日: 2026-11-02
+HTTPステータス: 200

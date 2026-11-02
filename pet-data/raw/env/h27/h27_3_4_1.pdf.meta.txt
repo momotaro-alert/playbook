@@ -1,0 +1,5 @@
+URL: https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/h27_3_4_1.pdf
+取得日: 2026-11-02
+HTTPステータス: 200
+Content-Type: application/pdf
+サイズ: 84509

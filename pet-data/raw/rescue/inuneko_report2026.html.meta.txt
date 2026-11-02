@@ -1,0 +1,3 @@
+URL: https://corp.inuneko-seikatsu.co.jp/report/report2026/
+取得日: 2026-11-02
+HTTPステータス: 200

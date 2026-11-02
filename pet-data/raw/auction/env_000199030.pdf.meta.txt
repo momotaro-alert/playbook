@@ -1,0 +1,3 @@
+URL: https://www.env.go.jp/content/000199030.pdf
+取得日: 2026-11-02
+HTTPステータス: 200

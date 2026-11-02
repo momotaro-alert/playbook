@@ -1,0 +1,3 @@
+URL: https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/210601oshirase_2
+取得日: 2026-11-02
+HTTPステータス: 200
