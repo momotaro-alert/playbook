@@ -1,0 +1,5 @@
+URL: https://www.env.go.jp/council/14animal/ext/900434842.pdf
+取得日: 2026-11-02
+HTTPステータス: 200
+表題: 犬の登録頭数と予防注射頭数等の年次別推移（全国計：昭和35年～平成24年度）【厚生労働省衛生行政報告例より】 [PDF 37KB]
+掲載ページ: https://www.env.go.jp/council/14animal/y140-41/ext.html

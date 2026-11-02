@@ -1,0 +1,4 @@
+URL: https://petmi.jp/dog/kind-95/
+取得日: 2026-11-02
+HTTPステータス: 200
+User-Agent: Mozilla/5.0 (research; contact via site)

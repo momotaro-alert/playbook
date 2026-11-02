@@ -1,0 +1,181 @@
+﻿年度または暦年,年,動物,項目,値,単位,区分,出典URL,取得日,分類定義,備考
+年度,2018,犬,殺処分数,7687.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 121自治体の合計
+年度,2018,犬,殺処分数_①,3840.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 121自治体の合計
+年度,2018,犬,殺処分数_①_うち幼齢,454.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 121自治体の合計（「-」5自治体を除く）
+年度,2018,犬,殺処分数_②,3000.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 121自治体の合計
+年度,2018,犬,殺処分数_②_うち幼齢,1066.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 121自治体の合計（「-」5自治体を除く）
+年度,2018,犬,殺処分数_③,847.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 121自治体の合計
+年度,2018,犬,殺処分数_③_うち幼齢,172.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 121自治体の合計（「-」5自治体を除く）
+年度,2018,犬,殺処分数_うち幼齢,1692.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 121自治体の合計（「-」5自治体を除く）
+年度,2018,犬猫計,殺処分数,38444.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2018,犬猫計,殺処分数_①,15317.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2018,犬猫計,殺処分数_①_うち幼齢,6431.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2018,犬猫計,殺処分数_②,15682.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2018,犬猫計,殺処分数_②_うち幼齢,10626.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2018,犬猫計,殺処分数_③,7445.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2018,犬猫計,殺処分数_③_うち幼齢,4869.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2018,犬猫計,殺処分数_うち幼齢,21926.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2018,猫,殺処分数,30757.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 121自治体の合計
+年度,2018,猫,殺処分数_①,11477.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 121自治体の合計
+年度,2018,猫,殺処分数_①_うち幼齢,5977.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 121自治体の合計（「-」5自治体を除く）
+年度,2018,猫,殺処分数_②,12682.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 121自治体の合計
+年度,2018,猫,殺処分数_②_うち幼齢,9560.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 121自治体の合計（「-」5自治体を除く）
+年度,2018,猫,殺処分数_③,6598.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 121自治体の合計
+年度,2018,猫,殺処分数_③_うち幼齢,4697.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 121自治体の合計（「-」5自治体を除く）
+年度,2018,猫,殺処分数_うち幼齢,20234.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r01_3_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 121自治体の合計（「-」5自治体を除く）
+年度,2019,犬,殺処分数,5635.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 125自治体の合計
+年度,2019,犬,殺処分数_①,3554.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 125自治体の合計
+年度,2019,犬,殺処分数_①_うち幼齢,396.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 125自治体の合計（「-」4自治体を除く）
+年度,2019,犬,殺処分数_②,1270.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 125自治体の合計
+年度,2019,犬,殺処分数_②_うち幼齢,446.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 125自治体の合計（「-」3自治体を除く）
+年度,2019,犬,殺処分数_③,811.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 125自治体の合計
+年度,2019,犬,殺処分数_③_うち幼齢,209.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 125自治体の合計（「-」4自治体を除く）
+年度,2019,犬,殺処分数_うち幼齢,1051.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 125自治体の合計（「-」4自治体を除く）
+年度,2019,犬猫計,殺処分数,32742.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2019,犬猫計,殺処分数_①,14031.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2019,犬猫計,殺処分数_①_うち幼齢,6055.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2019,犬猫計,殺処分数_②,12011.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2019,犬猫計,殺処分数_②_うち幼齢,8629.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2019,犬猫計,殺処分数_③,6700.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2019,犬猫計,殺処分数_③_うち幼齢,4543.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2019,犬猫計,殺処分数_うち幼齢,19227.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2019,猫,殺処分数,27107.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 125自治体の合計
+年度,2019,猫,殺処分数_①,10477.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 125自治体の合計
+年度,2019,猫,殺処分数_①_うち幼齢,5659.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 125自治体の合計（「-」4自治体を除く）
+年度,2019,猫,殺処分数_②,10741.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 125自治体の合計
+年度,2019,猫,殺処分数_②_うち幼齢,8183.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 125自治体の合計（「-」4自治体を除く）
+年度,2019,猫,殺処分数_③,5889.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 125自治体の合計
+年度,2019,猫,殺処分数_③_うち幼齢,4334.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 125自治体の合計（「-」4自治体を除く）
+年度,2019,猫,殺処分数_うち幼齢,18176.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r02/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 125自治体の合計（「-」4自治体を除く）
+年度,2020,犬,殺処分数,4059.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 127自治体の合計
+年度,2020,犬,殺処分数_①,2789.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 127自治体の合計
+年度,2020,犬,殺処分数_①_うち幼齢,233.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 127自治体の合計（「-」3自治体を除く）
+年度,2020,犬,殺処分数_②,642.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 127自治体の合計
+年度,2020,犬,殺処分数_②_うち幼齢,366.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 127自治体の合計（「-」2自治体を除く）
+年度,2020,犬,殺処分数_③,628.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 127自治体の合計
+年度,2020,犬,殺処分数_③_うち幼齢,207.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 127自治体の合計（「-」3自治体を除く）
+年度,2020,犬,殺処分数_うち幼齢,806.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 127自治体の合計（「-」3自治体を除く）
+年度,2020,犬猫計,殺処分数,23764.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2020,犬猫計,殺処分数_①,12051.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2020,犬猫計,殺処分数_①_うち幼齢,5131.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2020,犬猫計,殺処分数_②,6355.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2020,犬猫計,殺処分数_②_うち幼齢,4832.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2020,犬猫計,殺処分数_③,5358.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2020,犬猫計,殺処分数_③_うち幼齢,3873.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2020,犬猫計,殺処分数_うち幼齢,13836.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2020,猫,殺処分数,19705.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 127自治体の合計
+年度,2020,猫,殺処分数_①,9262.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 127自治体の合計
+年度,2020,猫,殺処分数_①_うち幼齢,4898.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 127自治体の合計（「-」5自治体を除く）
+年度,2020,猫,殺処分数_②,5713.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 127自治体の合計
+年度,2020,猫,殺処分数_②_うち幼齢,4466.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 127自治体の合計（「-」4自治体を除く）
+年度,2020,猫,殺処分数_③,4730.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 127自治体の合計
+年度,2020,猫,殺処分数_③_うち幼齢,3666.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 127自治体の合計（「-」5自治体を除く）
+年度,2020,猫,殺処分数_うち幼齢,13030.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r03/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 127自治体の合計（「-」5自治体を除く）
+年度,2021,犬,殺処分数,2739.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計
+年度,2021,犬,殺処分数_①,1891.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計
+年度,2021,犬,殺処分数_①_うち幼齢,174.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計（「-」3自治体を除く）
+年度,2021,犬,殺処分数_②,358.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2021,犬,殺処分数_②_うち幼齢,211.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計（「-」2自治体を除く）
+年度,2021,犬,殺処分数_③,490.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計
+年度,2021,犬,殺処分数_③_うち幼齢,155.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計（「-」2自治体を除く）
+年度,2021,犬,殺処分数_うち幼齢,540.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2021,犬猫計,殺処分数,14457.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2021,犬猫計,殺処分数_①,6725.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2021,犬猫計,殺処分数_①_うち幼齢,2339.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2021,犬猫計,殺処分数_②,4180.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2021,犬猫計,殺処分数_②_うち幼齢,2996.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2021,犬猫計,殺処分数_③,3552.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2021,犬猫計,殺処分数_③_うち幼齢,2612.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2021,犬猫計,殺処分数_うち幼齢,7947.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2021,猫,殺処分数,11718.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計
+年度,2021,猫,殺処分数_①,4834.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計
+年度,2021,猫,殺処分数_①_うち幼齢,2165.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計（「-」4自治体を除く）
+年度,2021,猫,殺処分数_②,3822.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2021,猫,殺処分数_②_うち幼齢,2785.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計（「-」3自治体を除く）
+年度,2021,猫,殺処分数_③,3062.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計
+年度,2021,猫,殺処分数_③_うち幼齢,2457.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計（「-」4自治体を除く）
+年度,2021,猫,殺処分数_うち幼齢,7407.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r04/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2022,犬,殺処分数,2434.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,犬,殺処分数_①,1701.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,犬,殺処分数_①_うち幼齢,199.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2022,犬,殺処分数_②,281.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,犬,殺処分数_②_うち幼齢,103.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,犬,殺処分数_③,452.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,犬,殺処分数_③_うち幼齢,147.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2022,犬,殺処分数_うち幼齢,449.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2022,犬猫計,殺処分数,11906.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2022,犬猫計,殺処分数_①,5714.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2022,犬猫計,殺処分数_①_うち幼齢,1656.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2022,犬猫計,殺処分数_②,2970.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2022,犬猫計,殺処分数_②_うち幼齢,2191.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2022,犬猫計,殺処分数_③,3222.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2022,犬猫計,殺処分数_③_うち幼齢,2480.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2022,犬猫計,殺処分数_うち幼齢,6327.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2022,猫,殺処分数,9472.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,猫,殺処分数_①,4013.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,猫,殺処分数_①_うち幼齢,1457.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2022,猫,殺処分数_②,2689.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,猫,殺処分数_②_うち幼齢,2088.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,猫,殺処分数_③,2770.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計
+年度,2022,猫,殺処分数_③_うち幼齢,2333.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2022,猫,殺処分数_うち幼齢,5878.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r05/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2023,犬,殺処分数,2118.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計
+年度,2023,犬,殺処分数_①,1543.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計
+年度,2023,犬,殺処分数_①_うち幼齢,221.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2023,犬,殺処分数_②,146.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2023,犬,殺処分数_②_うち幼齢,48.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計（「-」2自治体を除く）
+年度,2023,犬,殺処分数_③,429.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計
+年度,2023,犬,殺処分数_③_うち幼齢,119.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2023,犬,殺処分数_うち幼齢,388.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2023,犬猫計,殺処分数,9017.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2023,犬猫計,殺処分数_①,4731.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2023,犬猫計,殺処分数_①_うち幼齢,1316.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2023,犬猫計,殺処分数_②,1563.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2023,犬猫計,殺処分数_②_うち幼齢,1101.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2023,犬猫計,殺処分数_③,2723.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2023,犬猫計,殺処分数_③_うち幼齢,2007.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2023,犬猫計,殺処分数_うち幼齢,4424.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2023,猫,殺処分数,6899.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計
+年度,2023,猫,殺処分数_①,3188.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計
+年度,2023,猫,殺処分数_①_うち幼齢,1095.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計（「-」3自治体を除く）
+年度,2023,猫,殺処分数_②,1417.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2023,猫,殺処分数_②_うち幼齢,1053.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2023,猫,殺処分数_③,2294.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計
+年度,2023,猫,殺処分数_③_うち幼齢,1888.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計（「-」3自治体を除く）
+年度,2023,猫,殺処分数_うち幼齢,4036.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計
+年度,2024,犬,殺処分数_①,1459.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,犬,殺処分数_②,112.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,②①以外の殺処分,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,犬,殺処分数_③,393.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,③引取り後の死亡,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,犬,負傷動物_殺処分数_①,29.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,犬,負傷動物_殺処分数_②,38.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,②①以外の殺処分,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,犬,負傷動物_殺処分数_③,62.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,③引取り後の死亡,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,犬,殺処分数,1964.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計
+年度,2024,犬,殺処分数_①,1459.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計
+年度,2024,犬,殺処分数_①_うち幼齢,221.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計（「-」2自治体を除く）
+年度,2024,犬,殺処分数_②,112.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2024,犬,殺処分数_②_うち幼齢,62.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2024,犬,殺処分数_③,393.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計
+年度,2024,犬,殺処分数_③_うち幼齢,88.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計（「-」2自治体を除く）
+年度,2024,犬,殺処分数_うち幼齢,371.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計（「-」1自治体を除く）
+年度,2024,犬猫計,殺処分数,6830.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2024,犬猫計,殺処分数_①,3846.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2024,犬猫計,殺処分数_①_うち幼齢,951.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,犬＋猫
+年度,2024,犬猫計,殺処分数_②,892.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2024,犬猫計,殺処分数_②_うち幼齢,590.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,②①以外の殺処分,犬＋猫
+年度,2024,犬猫計,殺処分数_③,2092.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2024,犬猫計,殺処分数_③_うち幼齢,1409.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,③引取り後の死亡,犬＋猫
+年度,2024,犬猫計,殺処分数_うち幼齢,2950.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①＋②＋③,犬＋猫
+年度,2024,猫,殺処分数_①,2387.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,猫,殺処分数_②,780.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,②①以外の殺処分,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,猫,殺処分数_③,1699.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,③引取り後の死亡,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,猫,負傷動物_殺処分数_①,1236.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,猫,負傷動物_殺処分数_②,92.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,②①以外の殺処分,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,猫,負傷動物_殺処分数_③,2732.0,頭,実測,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/dog-cat.html,2026-11-02,③引取り後の死亡,環境省 dog-cat.html 全国表（負傷動物分は「負傷動物_」）
+年度,2024,猫,殺処分数,4866.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計
+年度,2024,猫,殺処分数_①,2387.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計
+年度,2024,猫,殺処分数_①_うち幼齢,730.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①譲渡することが適切ではない（治療の見込みがない病気・攻撃性等）,都道府県・指定都市・中核市 129自治体の合計（「-」3自治体を除く）
+年度,2024,猫,殺処分数_②,780.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計
+年度,2024,猫,殺処分数_②_うち幼齢,528.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,②①以外の殺処分,都道府県・指定都市・中核市 129自治体の合計（「-」2自治体を除く）
+年度,2024,猫,殺処分数_③,1699.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計
+年度,2024,猫,殺処分数_③_うち幼齢,1321.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,③引取り後の死亡,都道府県・指定都市・中核市 129自治体の合計（「-」4自治体を除く）
+年度,2024,猫,殺処分数_うち幼齢,2579.0,頭,計算,https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_4_3a.pdf,2026-11-02,①＋②＋③,都道府県・指定都市・中核市 129自治体の合計（「-」2自治体を除く）

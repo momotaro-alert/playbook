@@ -1,0 +1,3 @@
+URL: https://www.pet-coo.com/company/
+取得日: 2026-11-02
+HTTPステータス: 200

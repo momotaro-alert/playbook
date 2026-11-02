@@ -1,0 +1,1854 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript" src="/27/pc/resources/js/lib/jquery-20260210005843.js"></script>
+
+<script type="text/javascript">
+
+var tmpDisplayMode = 'd';
+
+if (false) {
+  
+  tmpDisplayMode = 'm';
+}
+
+var tmpPageType = 'other';
+var tmpCorpId = '';
+var tmpOptNo = '';
+var tmpEntryType = '';
+var tmpRegistType = '';
+
+var tmpsetOrgId = '515015416';
+
+    tmpPageType = 'corpinfo';
+    tmpCorpId = '222914';
+    tmpOptNo = '';
+    tmpEntryType = '';
+    tmpRegistType = '';
+  
+var iniValue = {
+	        pageType : tmpPageType,
+	        displayMode : tmpDisplayMode,
+	        corpId : tmpCorpId,
+	        optNo : tmpOptNo,
+	        entryType : tmpEntryType,
+	        registType : tmpRegistType,
+	        memberId : '',
+	        memDraft : '',
+	        tmpMemDraft : '',
+	        memAddr : '',
+	        memVacAddr : '',
+	        memIndustry : [''],
+	        memOccupation : [''],
+	        memWorkAddr : [''],
+	        memCourseCtg : '',
+	        memUniversity : '',
+	        memUnivFacl : '',
+	        memUnivDept : '',
+	        memUnivType : '',
+	        memUnivDeptCtg : '',
+	        memUnivDegree : '',
+	        memUnivCtg : '',
+	        memCircleInfo : '',
+	        memCrpTypeCtg : [''],
+	        memQualifyCtg : [''],
+	        memLangAbilityCtg : [''],
+	        memExperienceCtg : [''],
+	        memBookMark : '',
+	        memEntryPre : '',
+	        memSemEntryPre : '',
+	        memEntryHon : '',
+	        memSemEntryHon : '',
+	        memRegistType : '',
+	        memGraduateCtg:'',
+	        memNewGraduateInfo:'',
+	        memFemaleMemInfo:'',
+	        memForeignStudentInfo:'',
+	        memEventEntryPre:'',
+	        memEventEntryHon:'',
+	        memChallengedInfo : '',
+	        memExcludeOtherUnentRegNum : '',
+	        memExcludeOtherEntNum : '',
+	        memOtherEntryPre100 : '',
+	        memOtherEntryHon100 : '',
+	        memOtherEntryPre110 : '',
+	        memOtherEntryHon110 : '',
+	        memOtherEntryPre120 : '',
+	        memOtherEntryHon120 : '',
+	        memOtherEntryPre130 : '',
+	        memOtherEntryHon130 : '',
+	        memOtherEntryPre140 : '',
+	        memOtherEntryHon140 : '',
+	        memOtherEntryPre150 : '',
+	        memOtherEntryHon150 : '',
+	        memOtherEntryPre160 : '',
+	        memOtherEntryHon160 : '',
+	        memOtherEntryPre170 : '',
+	        memOtherEntryHon170 : '',
+	        memOtherEntryPre180 : '',
+	        memOtherEntryHon180 : '',
+	        memOtherEntryPre190 : '',
+	        memOtherEntryHon190 : '',
+	        memOtherEntryPre200 : '',
+	        memOtherEntryHon200 : '',
+	        memOtherEntryPre210 : '',
+	        memOtherEntryHon210 : '',
+	        memOtherEntryPre220 : '',
+	        memOtherEntryHon220 : '',
+	        memOtherEntryPre230 : '',
+	        memOtherEntryHon230 : '',
+	        memOtherEntryPre240 : '',
+	        memOtherEntryHon240 : '',
+	        memOtherEntryPre250 : '',
+	        memOtherEntryHon250 : '',
+	        memOtherEntryPre260 : '',
+	        memOtherEntryHon260 : '',
+	        memOtherEntryPre270 : '',
+	        memOtherEntryHon270 : '',
+	        memOtherEntryPre280 : '',
+	        memOtherEntryHon280 : '',
+	        memOtherEntryPre290 : '',
+	        memOtherEntryHon290 : '',
+	        memReserveListNum : '',
+	        memBoxUniv : '',
+	        memMyCO : '',
+	        memMedWelfareMemInfo : '',
+	        memNurseryMemInfo : '',
+	        memAllModalTermLoginCnt : '',
+	        memInternshipEntryCorpCnt : '',
+	        memBookmarkCnt : '',
+	        memSemEntryCntHon : '',
+	        memEntryCntHon : '',
+	        memBookmarkNumOfEmployCnt : [''],
+	        memBookmarkUnivEmployCnt : '',
+	        memBookmarkDetailIndCnt : '',
+	        memBookmarkOccupationCnt : '',
+	        memBookmarkHqAddrCnt : '',
+	        memEntryNumOfEmployeesCntHon : [''],
+	        memEntryUnivEmployCntHon : '',
+	        memEntryDetailIndCntHon : '',
+	        memEntryOccupationCntHon : '',
+	        memEntryHqAddrCntHon : '',
+	        memQuesAnsStatus : [''],
+	        memOtheryearFirstLoginFlg : '',
+	        memLastyearBookmarkListMigrationStatus : '',
+	        memLineCooperationStatus : '',
+	        memOfficialDeliveryReserveFlg : '',
+	        memMCStudyLogin : '',
+	        memMCStudyLastLoginDate : '',
+	        memMCStudyAttendance : '',
+	        memMCStudyLastAttendanceDate : '',
+	        memMCStudyMeetUp : '',
+	        memMCStudyLastMeetUpDate : '',
+	        memMCStudyStartAttendanceRec : [''],
+	        memMCStudyEndAttendanceRec : [''],
+	        memMCStudy : '',
+	        memMcb : '',
+	        memWebTest : '',
+	        memProsAndCons : '',
+	        memOtherSelfAnalysis : '',
+	        memExamInfo : ['']
+	};
+   
+    var iniErData = {
+            pageType : tmpPageType,
+            setUserInfo: '',
+            setOrgId:tmpsetOrgId,
+            corpId : '',
+            memAddr : '',
+            memIndustry : [''],
+            memUnivDeptCtg : '',
+            memUnivCtg : '',
+            memPreferredJobType : [''],
+            memPreferredArea : [''],
+            memPreferredCorpType : ['']
+      };
+    
+	var gGTagMngPrams = iniValue;
+	
+	var erData = iniErData;
+	
+
+
+var dataLayer = [gGTagMngPrams];
+
+</script>
+<script type="text/javascript" src="//515015416.collect.igodigital.com/collect.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CFY2HM88E8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {dataLayer.push(arguments);}
+  gtag('js', new Date());
+  var encryptedMemberId = "";
+
+  gtag('set', 'user_properties', {
+    system_id: gGTagMngPrams['memberId'],
+    scout_regist: gGTagMngPrams['memDraft'],
+    current_address: gGTagMngPrams['memAddr'],
+    desire_industry: gGTagMngPrams['memIndustry'],
+    desire_occupation: gGTagMngPrams['memOccupation'],
+    preferred_work_location: gGTagMngPrams['memWorkAddr'],
+    liberal_science_division: gGTagMngPrams['memCourseCtg'],
+    school_code: gGTagMngPrams['memUniversity'],
+    faculty_code: gGTagMngPrams['memUnivFacl'],
+    department_code: gGTagMngPrams['memUnivDept'],
+    school_division: gGTagMngPrams['memUnivType'],
+    department_division: gGTagMngPrams['memUnivDeptCtg'],
+    school_group: gGTagMngPrams['memUnivCtg'],
+    desire_company_type: gGTagMngPrams['memCrpTypeCtg'],
+    qualification: gGTagMngPrams['memQualifyCtg'],
+    language_skill: gGTagMngPrams['memLangAbilityCtg'],
+    experience: gGTagMngPrams['memExperienceCtg'],
+    bookmark_regist: gGTagMngPrams['memBookMark'],
+    entry_exp_pre: gGTagMngPrams['memEntryPre'],
+    seminar_entry_exp_pre: gGTagMngPrams['memSemEntryPre'],
+    entry_exp: gGTagMngPrams['memEntryHon'],
+    seminar_entry_exp: gGTagMngPrams['memSemEntryHon'],
+    graduation_season: gGTagMngPrams['memGraduateCtg'],
+    new_graduate_agent_info: gGTagMngPrams['memNewGraduateInfo'],
+    female_student_info: gGTagMngPrams['memFemaleMemInfo'],
+    foreigner_info: gGTagMngPrams['memForeignStudentInfo'],
+    event_entry_exp_pre: gGTagMngPrams['memEventEntryPre'],
+    event_entry_exp: gGTagMngPrams['memEventEntryHon'],
+    handicap_info_request: gGTagMngPrams['memChallengedInfo'],
+    not_entry_bookmark_total: gGTagMngPrams['memExcludeOtherUnentRegNum'],
+    entry_total: gGTagMngPrams['memExcludeOtherEntNum'],
+    reservation_regist_total: gGTagMngPrams['memReserveListNum'],
+    match_plus_info: gGTagMngPrams['memMatchPlus'],
+    school_message_info: gGTagMngPrams['memBoxUniv'],
+    myco_info: gGTagMngPrams['memMyCO'],
+    medical_welfare_info: gGTagMngPrams['memMedWelfareMemInfo'],
+    childcare_student_info: gGTagMngPrams['memNurseryMemInfo'],
+    extracurricular_activity: gGTagMngPrams['memCircleInfo'],
+    line_status: gGTagMngPrams['memLineCooperationStatus'],
+    official_delivery_book: gGTagMngPrams['memOfficialDeliveryReserveFlg']
+  });
+
+  var corpId = (tmpCorpId != "")? "id_" + tmpCorpId : "";
+  var optionNumber = (tmpOptNo != "")? tmpOptNo : "";
+  var entryType = (tmpEntryType != "")? tmpEntryType : "";
+
+  if(encryptedMemberId != "") {
+    gtag('config', 'G-CFY2HM88E8', {
+        'user_id': encryptedMemberId,
+        'corp_id': corpId,
+        'option_number': optionNumber,
+        'entry_type': entryType
+    });
+  } else {
+    gtag('config', 'G-CFY2HM88E8', {
+        'user_id': "",
+        'corp_id': corpId,
+        'option_number': optionNumber,
+        'entry_type': entryType
+    });
+  }
+</script>
+<script src="https://cdn-blocks.karte.io/01b0076ee00f28ec7a297cdb771c9813/builder.js"></script><script type="text/javascript">
+try{
+  var smartPhoneDefaultCssPath = "/27/pc/resources/css/smartphone-20260210005841.css";
+  var smartPhoneCssPath = smartPhoneDefaultCssPath.substr(0,smartPhoneDefaultCssPath.lastIndexOf("/")+1);
+  var staticpath = smartPhoneCssPath ;
+} catch(e) {
+
+}
+</script>
+
+<script type="text/javascript" src="/27/pc/resources/js/submit-20260210005843.js"></script>
+<script type="text/javascript" src="/27/pc/resources/js/stuCommon-20260210005843.js"></script>
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="Description" content="(株)アミーゴの会社概要ページです。マイナビ2027は、採用情報や企業情報で、就職活動をサポートします。">
+				<meta name="twitter:card" content="summary">
+				<meta name="twitter:site" content="@mynavi2027">
+				<meta property="og:title" content="(株)アミーゴの会社概要 | マイナビ2027">
+				<meta property="og:description" content="(株)アミーゴの会社概要ページです。マイナビ2027は、(株)アミーゴの採用情報や企業情報で、就職活動をサポートします。">
+				<meta property="og:image" content="https://job.mynavi.jp/conts/2027/ogimage.png">
+				<meta name="format-detection" content="telephone=no">
+			<meta name="ROBOTS" content="NOARCHIVE">
+	<meta name="GOOGLEBOT" content="NOARCHIVE">
+<title>(株)アミーゴの新卒採用・会社概要 | マイナビ2027</title><link rel="canonical" href="https://job.mynavi.jp/27/pc/search/corp222914/outline.html">
+<script type="text/javascript" src="/27/pc/resources/js/lib/jquery.matchHeight-20260210005843.js"></script>
+<script type="text/javascript" src="/27/pc/resources/js/lib/slick-20260211123619.js"></script>
+<script type="text/javascript" src="/27/pc/resources/js/design/common/run-20260603163629.js"></script>
+<script type="text/javascript" src="/27/pc/resources/js/design/common/tooltip-20260210005843.js"></script>
+<script type="text/javascript">
+var clientwidth = "device-width";
+</script>
+<link rel="stylesheet" type="text/css" href="/27/pc/resources/css/pcAlt-20260601121428.css" />
+<script type="text/javascript" src="/27/pc/resources/js/lib/jquery.cookie-20260210005843.js"></script>
+<script type="text/javascript" src="/27/pc/resources/js/lib/js.cookie.min-20260210005843.js"></script>
+</head>
+<body id="companyDetail">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WZZVFJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZZVFJ');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+
+_etmc = _etmc || [];
+if(encryptedMemberId != "") {
+_etmc.push(["setUserInfo",
+        {"email": mev,
+        "details":{
+                "memAddr":erData['memAddr'],
+                "memIndustry":erData['memIndustry'],
+                "memUnivDeptCtg":erData['memUnivDeptCtg'],
+                "memUnivCtg":erData['memUnivCtg'],
+                "memPreferredJobType":erData['memPreferredJobType'],
+                "memPreferredArea":erData['memPreferredArea'],
+                "memPreferredCorpType":erData['memPreferredCorpType']
+        }
+}]);
+}
+_etmc.push(["setOrgId", erData['setOrgId']]);
+if(erData['pageType'].indexOf("corpinfo")!=-1){
+_etmc.push(["trackPageView", {"item":erData['corpId']}]);
+}else{
+_etmc.push(["trackPageView"]);
+}
+</script>
+<script type="text/javascript" src="/27/pc/resources/js/lib/jquery.cookie-20260210005843.js"></script>
+<script type="text/javascript" src="/27/pc/resources/js/design/common/init_modal-20260210005843.js"></script>
+<script type="text/javascript">
+  var dspFlg = 3;
+  var spModeFlg = false;
+  var memCookie = 'mynavi2027_entry_open_first_access_date_time_mem';
+  var noMemCookie = 'mynavi2027_entry_open_first_access_date_time_nonmem';
+  var memFlg = false;
+  // 会員判定
+  
+
+  // 非会員判定
+  
+    memFlg = false;
+  
+  // スマホモードの判定
+  if (false == spModeFlg) {
+    var isHonnavi = true;
+    var isStartdate = Number('20260228230000');
+    var strSysdate = Number('20261103001307');
+    var isEnddate = Number('20260312235959');
+    var memAllModalTermLoginCnt = Number();
+    // 本ナビ及びシステム日時が全機能リリース後モーダル表示判定開始日時と全機能リリース後モーダル表示判定期限日時
+    // の間か判定
+    if (true == isHonnavi && isStartdate <= strSysdate && strSysdate <= isEnddate) {
+      if (memFlg) {
+        if (null == $.cookie(memCookie) && memAllModalTermLoginCnt <= 1 ) {
+          dspFlg = 1;
+        }
+      } else {
+        if (null == $.cookie(noMemCookie)) {
+          dspFlg = 2;
+        }
+      }
+    }
+
+    
+    $(function(){
+      // 念のため、会員、非会員モーダルを非表示にしておく
+      $('#reserve').css("display", "none");
+      $('#noreserve').css("display", "none");
+      $('#memModal').css("display", "none");
+      $('#noMemModal').css("display", "none");
+      $('#entryCorpListModal').css("display", "none");
+      // モーダル表示判定
+      if (3 != dspFlg) {
+        window.onload = incSysModalJdgForDsp();
+      }
+      var $html = $('html');
+      var $body = $(document.body);
+      $html.removeClass('is-modal-fixed');
+    });
+    
+  }
+
+// モーダル表示判定
+function incSysModalJdgForDsp() {
+  var entryStrDate = 20260301 + "000000";
+  var path = "/common/displayModalForMember/doInitModalDspForMember";
+  
+  var ajaxSuccess = function (data, textStatus, jqXHR) {
+    
+    memberModalDsp(data);
+  };
+
+  
+  var ajaxFailure = function (jqXHR, textStatus, errorThrown) {
+    
+    memberModalDsp(null);
+  };
+
+  var localDate = getLocalDate();
+  if (entryStrDate <= localDate) {
+    if(1 == dspFlg) {
+      
+      MYNAVI.ajax.get(path, null, ajaxSuccess, ajaxFailure);
+    } else if (2 == dspFlg) {
+      // 非会員画面表示
+      // noMemberModalDsp();
+    }
+  } else {
+    // 全機能リリース後モーダル表示判定間隔（秒）後、本メソッドを再度呼ぶ
+    window.setTimeout(incSysModalJdgForDsp, 8 * 1000);
+  }
+}
+
+
+function memberModalDsp(data) {
+    var rtnDto = data;
+
+    if (null != data && (0 < rtnDto.entryCorpNum || 0 < rtnDto.noEntryCorpNum)) {
+        $('#memModal').css("display", "block");
+       // 完了、未完了件数をセット
+       $('#entryCnt').text(rtnDto.entryCorpNum);
+       $('#noEntryCnt').text(rtnDto.noEntryCorpNum);
+       // モーダル実行
+       $('#reserve').css("display", "block");
+       $('#noreserve').css("display", "none");
+       $('#entryCorpListModal').css("display", "none");
+       $('#memModal').setModalInit({
+         initDisplay : true
+       });
+    } else if (null != data && null != rtnDto.entryReceptCorpDispList && (0 == rtnDto.entryCorpNum && 0 < rtnDto.entryReceptCorpDispList.length)) {
+         // モーダル実行
+        $('#reserve').css("display", "none");
+        $('#noreserve').css("display", "none");
+        $('#memModal').css("display", "none");
+        $('#entryCorpListModal').css("display", "block");
+        $('#entryCorpListModal').setModalInit({
+            initDisplay : true
+       });
+        setEntryReceptCorpDispList(data.entryReceptCorpDispList);
+        
+    	// top.jsで処理しているが、一覧が存在する時に紐づけないと動作しないのでここで再度処理する
+        const $root = $('.js-inheriting-2023');
+        if(!$root.length) {
+            return;
+        }
+
+        const $allBtn = $root.find('.js-btn-check-all');
+
+        $allBtn.on('click',function (){
+        	var selectCorp = $("input[name='selectCorpArray']");
+            var corpIds = new Array();
+            for (var i = 0; i < selectCorp.length; i++) {
+                var e = selectCorp[i];
+                if (e.checked) {
+                    corpIds.push(e.value);
+                }
+            }
+            $('#selectCnt').text(corpIds.length);
+        });
+    }else{
+        $('#memModal').css("display", "block");
+      // モーダル実行
+      $('#reserve').css("display", "none");
+      $('#noreserve').css("display", "block");
+      $('#entryCorpListModal').css("display", "none");
+
+      $('#memModal').setModalInit({
+        initDisplay : true
+      });
+    }
+
+
+    // 会員クッキー発行
+    // クッキー名, ログイン日時(yyyyMMddHhmmss), サービス終了日時, /
+    var limitDate = new Date(getServiceEnd());
+    Cookies.set(memCookie, getLocalDate(),{ expires: limitDate, path: '/', secure: true, sameSite: 'None' });
+
+    // 非会員クッキー発行
+    // クッキー名, ログイン日時(yyyyMMddHhmmss), サービス終了日時, /
+    Cookies.set(noMemCookie, getLocalDate(),{ expires: limitDate, path: '/', secure: true, sameSite: 'None' });
+
+}
+
+
+function setEntryReceptCorpDispList(data) {
+    var str = '';
+    for (var i=0;i < data.length; i++) {
+        str = str + '<li>';
+        str = str + '<label class="entry-modal-consider-form-check" id=corpList[' + i + ']>';
+        str = str + '<input type="checkbox"  name="selectCorpArray" onclick="isCheckEntryCorp();" value="' + data[i].corpId + '" id="selectCorpArray[' + i + ']" class="input">';
+        str = str + '<span class="content">';
+        if (data[i].logo == null) {
+            str = str + '<span class="img" id="logo"><img src="/27/pc/resources/images/top_2027/dummy/dummy-44-20260210005843.png" loading="lazy"></img></span>';
+        } else {
+            str = str + '<span class="img" id="logo"><img src="' + data[i].logo + '" alt="" loading="lazy"/></span>';
+        }
+        if (data[i].flg == 1) {
+            str = str + '<span class="txt" id="corpName"><em>' + data[i].corpName + '</em></span>';
+        } else {
+            str = str + '<span class="txt" id="corpName">' + data[i].corpName + '</span>';
+        }
+
+        str = str + '</span></label></li>';
+    }
+    document.getElementById('receptCorpDispList').innerHTML = str;
+
+    // チェックボックスの状態を復元
+    const elements = document.getElementsByClassName('input');
+    for (var i=0; i < elements.length; i++) {
+            elements[i].checked = true;
+    }
+    var selectCorp = $("input[name='selectCorpArray']");
+    var corpIds = new Array();
+    for (var i = 0; i < selectCorp.length; i++) {
+        var e = selectCorp[i];
+        if (e.checked) {
+            corpIds.push(e.value);
+        }
+    }
+    $('#selectCnt').text(corpIds.length);
+}
+
+function noMemberModalDsp() {
+  // モーダル実行
+  $('#memModal').css("display", "none");
+  $('#noMemModal').css("display", "block");
+  $('#noMemModal').setModalInit({
+    initDisplay : true
+  });
+  // 非会員クッキー発行
+  // クッキー名, ログイン日時(yyyyMMddHhmmss), サービス終了日時, /
+  var limitDate = new Date(getServiceEnd());
+  Cookies.set(noMemCookie, getLocalDate(),{ expires: limitDate, path: '/', secure: true, sameSite: 'None' });
+}
+
+// ローカルの日時取得
+function getLocalDate() {
+  var date = new Date();
+  var y = date.getFullYear();
+  var m = ("00" + (date.getMonth() + 1)).slice(-2);
+  var d = ("00" + date.getDate()).slice(-2);
+  var hh = ("00" + date.getHours()).slice(-2);
+  var mm = ("00" + date.getMinutes()).slice(-2);
+  var ss = ("00" + date.getSeconds()).slice(-2);
+
+  return (y + m + d + hh + mm + ss);
+}
+
+//サービス終了日時のフォーマット
+function getServiceEnd() {
+  var endDate = '20260312235959';
+
+  var y = endDate.substring(0, 4); // 年
+  var m = endDate.substring(4, 6); // 月
+  var d = endDate.substring(6, 8); // 日
+  var hh = endDate.substring(8, 10); // 時
+  var mm = endDate.substring(10, 12); // 分
+  var ss = endDate.substring(12); // 秒
+  var ymdhms = y + "/" + m + "/" + d + " " + hh + ":" + mm + ":" + ss;
+
+  return ymdhms;
+}
+
+//モーダルを閉じる
+function closeModal() {
+    $('#entryCorpListModal').css("display", "none");
+    var $modalContent = $('.js-inheriting-2023');
+    var $overlay = $('#js-modal-init-overlay')
+    $overlay.remove();
+}
+
+//「すべて選択」ボタン押下
+function allCheck(target) {
+  //1 name属性を前方一致で検索し、該当要素のチェックを付ける(checked="true")。
+    $('input[name^=' + target + ']').prop('checked', true);
+
+    var selectCorp = $("input[name='selectCorpArray']");
+    var corpIds = new Array();
+    for (var i = 0; i < selectCorp.length; i++) {
+        var e = selectCorp[i];
+        if (e.checked) {
+            corpIds.push(e.value);
+        }
+    }
+    $('#selectCnt').text(corpIds.length);
+}
+
+//「選択全解除」ボタン押下
+function clearAllCheck(target) {
+  //1 name属性を前方一致で検索し、該当要素のチェックを外す(checked="false")。
+    $('input[name^=' + target + ']').prop('checked', false);
+
+    $('#selectCnt').text(0);
+}
+
+//「エントリー受付企業チェックボックス」押下
+function isCheckEntryCorp() {
+    var selectCorp = $("input[name='selectCorpArray']");
+    var corpIds = new Array();
+    for (var i = 0; i < selectCorp.length; i++) {
+        var e = selectCorp[i];
+        if (e.checked) {
+            corpIds.push(e.value);
+        }
+    }
+    if (0 != corpIds.length ) {
+    	$('#checkEntry').prop('disabled',false);
+    } else {
+    	$('#checkEntry').prop('disabled',true);
+    }
+    $('#selectCnt').text(corpIds.length);
+}
+
+//「選択した企業にエントリー」ボタン押下
+function doRegistPackableEntry() {
+    //  1 引数．チェックボックス名より、チェックボックスのDOM要素を取得する。
+    //   1) チェックボックスが取得できない場合
+
+    //  2 企業IDの連結文字列を生成する。
+    //   1) 「企業IDの連結文字列」を空文字で初期化する。
+    var selectCorp = $("input[name='selectCorpArray']");
+
+    // 2) チェックボックスの要素分、以下の処理を繰り返す。
+    //  a. チェックボックスが選択状態（ON）の場合
+    //   i. 「企業IDの連結文字列」が空以外の場合のみ、以下の処理を実行する。
+    //    i) ","(カンマ)を「企業IDの連結文字列」に連結する。
+    //     ii. チェックボックスのvalue属性より企業IDを取得し、「企業IDの連結文字列」に連結する。
+	var checkCorps="";
+	var first = true;
+	for (var i = 0; i < selectCorp.length; i++) {
+		var e = selectCorp[i];
+		if (e.checked) {
+			if(first){
+				checkCorps+=e.value;
+				first = false;
+			}else{
+				checkCorps+=","+e.value;
+			}
+		}
+	}
+
+    // 3) 「企業IDの連結文字列」が空の場合
+    //  a. 「企業IDの連結文字列」に、半角スベースを設定する。
+    //   ※ 一括エントリー画面側の入力チェックにて、「URLが正しくありません。」のエラーメッセージが表示されるのを回避するため。
+    if(0 == checkCorps.length){
+          checkCorps=" ";
+    }else{
+    //  a. PCモード（引数．モバイル向け画面表示モード＝false）の場合
+      if (false == false) {
+      //  ・ 別ウィンドウで遷移する。
+      //  ・ /user/registPackableEntry/index?corpId={企業IDの連結文字列（※）}&actionMode=packable
+      //   ※上記2で生成した企業IDの連結文字列
+         var url = VMYNAVI.CONST.CONTEXT_PATH +"/user/registPackableEntry/index?corpId=" + checkCorps + "&actionMode=packable";
+         window.open(url);
+      }
+      //b. スマホモード（引数．モバイル向け画面表示モード＝true）の場合
+      else if (true == false){
+      //  ・ 自画面で遷移する。
+      //  ・ /user/registPackableEntry/index?corpId={企業IDの連結文字列（※）}&actionMode=packable
+      //   ※上記2で生成した企業IDの連結文字列
+         var url = VMYNAVI.CONST.CONTEXT_PATH +"/user/registPackableEntry/index?corpId=" + checkCorps + "&actionMode=packable";
+         window.location.href = url;
+      }
+   }
+
+// 2) "true"を返却する。
+  return true;
+}
+</script>
+
+<div class="modal-a-wrap js-modal-init" style="display:none;" id="memModal">
+ <div class="modal-a">
+  <div class="modal-inner-b" style="display:none;" id="reserve">
+   <div class="main">
+    <p class="lead"><b>予約リストに追加した企業への<br class="disp-pc-none">エントリーを行いました。</b></p>
+   </div>
+   <div class="content">
+    <dl class="list-entry-a">
+     <div>
+      <dt>エントリー完了企業</dt>
+      <dd><em id="entryCnt"></em>社</dd>
+     </div>
+     <div>
+      <dt>エントリーできなかった企業</dt>
+      <dd><em id="noEntryCnt"></em>社</dd>
+     </div>
+    </dl>
+    <p class="sub">以下のボタンから、<br class="disp-pc-none">予約リストを確認してください。</p>
+    <p class="btn-lyt-a"><a href="/27/pc/search/bookmark_list/entry_reserve_all.html" class="btn-a">予約リストへ</a></p>
+   </div>
+  </div>
+     <div class="modal-inner-b small" style="display:none;" id="noreserve">
+   <div class="main">
+    <p class="lead"><b>エントリー受付を開始しました。</b></p>
+    <p class="btn-lyt-a"><a href="/27/pc/toppage/displayTopPage/index/" class="btn-a">トップページへ</a></p>
+   </div>
+  </div>
+  </div>
+</div>
+<!-- ▼「予約リスト登録なし」かつ「検討リスト登録あり」のエントリー受付企業一覧モーダル▼ -->
+<div class="modal-a-wrap js-modal-init" style="display: none;" id="entryCorpListModal">
+    <div class="modal-a">
+        <div class="js-top-entry-modal-consider">
+            <div class="entry-modal-consider js-modal-content js-inheriting-2023">
+                <div class="modal-consider-inner entry-modal-consider-inner">
+                    <div class="modal-consider-slider">
+                        <div class="entry-modal-consider-slider-item">
+                            <button type="button" class="js-modal-close entry-modal-Close" onclick="closeModal();">閉じる</button>
+                            <h2 class="entry-modal-consider-hdg">エントリー受付開始！</h2>
+                            <p class="entry-modal-consider-lead">検討リストに登録した企業の中から、<br>気になる企業にエントリーしよう！</p>
+                            <div class="entry-modal-consider-content">
+                                <div class="entry-modal-consider-box wide scroll">
+                                    <ul class="entry-modal-consider-nav">
+                                        <li><button type="button" class="js-btn-check-all" onclick="allCheck('selectCorpArray')">すべて選択</button></li>
+                                        <li><button type="button" class="js-btn-clear-all" onclick="clearAllCheck('selectCorpArray')">選択全解除</button></li>
+                                    </ul>
+                                    <div class="inner">
+                                        <ul class="modal-consider-form-list entry-modal-consider-form-list" id="receptCorpDispList">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="entry-modal-fixed-nav">
+                    <p class="entry-modal-consider-txt-count"><span class="js-count-text" id="selectCnt">0</span>社を選択中</p>
+                    <div class="entry-modal-consider-btn-lyt">
+                        <button type="button" class="btn-02 js-slide-next" onclick="doRegistPackableEntry()" id="checkEntry">選択した企業にエントリー</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ▲「予約リスト登録なし」かつ「検討リスト登録あり」のエントリー受付企業一覧モーダル▲ -->
+
+<div class="modal-a-wrap js-modal-init" style="display:none;" id="noMemModal">
+  <div class="modal-a">
+    <div class="modal-inner-a">
+      <div class="main">
+        <p class="lead"><b>エントリー受付開始!!</b></p>
+        <p>会員の人はログインしてください。</p>
+      </div>
+
+      <div class="content">
+        <ul class="list-btn-a">
+          <li><a href="/27/pc/registtop/displayRegistTop/index" class="btn-a type-b">新規会員登録</a></li>
+           <li><a href="/27/pc/common/displayRelayScreen/displayForLogin" class="btn-a">ログイン</a></li>
+        </ul>
+        <ul class="link-list-02">
+          <li><a href="/27/pc/toppage/displayTopPage/index/" class="link-01">トップページへ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div><div id="wrapper">
+	<div id="headerWrap">
+		<div id="top"></div>
+<script type="text/javascript" src="/27/pc/resources/js/corpinfo-20260210005843.js"></script>
+<script type="text/javascript" src="/27/pc/resources/js/extend-20260210005843.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	init();
+ });
+</script>
+<script type="text/javascript" src="/27/pc/resources/js/system/user/sys_asynchronousRegistBookmark-20260210005843.js"></script>
+<script type="text/javascript">
+    
+    var STU_OPEN_AND_SHUT_CORP_CATEGORY_LINK_COOKIE = "mynavi2027_crp_head_foot_link";
+    var STU_OPEN_AND_SHUT_CORP_CATEGORY_LINK_COOKIE_EXPIRATION_DATE = "120";
+    var COM_ENVIRONMENT_CONTEXT_PATH_NS = "/27/pc";
+    var isMobileView = "false";
+</script>
+<script type="text/javascript" src="/27/pc/resources/js/system/common/sys_corpInfoHeader-20260210005843.js"></script>
+<script type="application/ld+json">
+ 		 		{
+ 		 		   "publisher": {
+ 		 		       "@type": "Organization",
+ 		 		       "name": "マイナビ2027",
+ 		 		       "logo": {
+ 		 		           "@type": "ImageObject",
+ 		 		           "url": "https://job.mynavi.jp/conts/2027/ogimage.png"
+ 		 		       }
+ 		 		   }
+ 		 		}
+ 		 		</script>
+
+<div id="headerCorp">
+        <p class="update" id="updateDate">最終更新日：2026/7/16</p>
+            <p><a href="https://job.mynavi.jp/27/pc/"><img src="/27/pc/resources/images/share/logo_01-20260210005841.svg" alt="マイナビ2027" class="header-logo"></img></a></p>
+                    </div>
+
+    <div id="companyHead" class="group"><div class="heading1">
+        	<div class="heading1-content">
+        		<div class="heading1-inner">
+        			<div class="heading1-inner-left">
+            			<h1>(株)アミーゴ</h1>
+						<!-- <dl>
+                        			<dt>マイナビコード</dt>
+                        			<dd>222914</dd>
+                    			</dl> -->
+							<ul class="c-label-list">
+							<li class="c-label c-label-03">正社員</li></ul>
+	            		</div>
+        	<div class="heading1-inner-right">
+				<ul class="labelList01">
+					<!-- /.labelList01 -->
+				</ul>
+			</div>
+		</div>
+		</div>
+		</div>
+        <div class="boxAttention01">
+                    <p>現在、応募受付を停止しています。</p>
+                </div>
+        <div class="heading2">
+            <div class="category">
+                <h2>業種</h2>
+                    <ul>
+                        <li><span class="noLink">専門店（その他小売）</span></li>
+                        <li><span class="noLink">専門店（ホビー・ペット関連）</span></li>
+                        </ul>
+                </div>
+            <div class="place">
+                <h2>基本情報</h2>
+                <div class="placeItem">
+                    <dl>
+                        <dt>本社</dt><dd>
+                        東京都</dd>
+                    </dl>
+                    <dl>
+                            <dt>資本金</dt><dd>1億円</dd>
+                        </dl>
+                    <dl>
+                            <dt>売上高</dt><dd>255億円　2025年2月期</dd>
+                        </dl>
+                    <dl>
+                            <dt>従業員</dt><dd>2,237人</dd>
+                        </dl>
+                    </div>
+            </div>
+        </div>
+        </div>	<script type="text/javascript" src="/27/pc/resources/js/lib/jquery.cookie-20260210005843.js"></script>
+    <script type="text/javascript" src="/27/pc/resources/js/design/common/init_modal-20260210005843.js"></script>
+    <script type="text/javascript">
+
+    function doDeleteReserveListModal() {
+        if(modalDeleteMode=='0'){
+            ST.doDeleteBookmarkWithReserveAsync(modalViewId, modalCorpId);
+        } else if(modalDeleteMode=='1'){
+            doDelete();
+        }
+        cancelDeleteReserveListModal();
+    }
+
+    //画面を閉じる処理
+    function cancelDeleteReserveListModal() {
+        // 予約リスト削除確認ダイアログを表示する
+        $('#displayDeleteBookmarkListWithReserveModal').css("display", "none");
+
+    }
+    </script>
+
+    <div class="boxReserveAlert" style="display:none;" id="displayDeleteBookmarkListWithReserveModal">
+        <div class="inner">
+            <p class="hdg">予約リストからも削除されますがよろしいですか？</p>
+            <ul class="list-btn">
+                <li>
+                    <button type="button" class="btn-01 considerHookRsv agree" onclick="doDeleteReserveListModal();">削除</button>
+                </li>
+                <li>
+                    <button type="button" class="btn-01 considerHookRsv disagree" onclick="cancelDeleteReserveListModal();">キャンセル</button>
+                </li>
+            </ul>
+        </div>
+    </div><div class="footerFixedEntries02" id="footerFixedEntries02">
+	</div>
+<div id="localNaviWrap" class="localNaviWrap pcOnly">
+            <div id="localNavi">
+                <div class="inner">
+                    <div class="localNavi-list">
+                        <ul>
+                            <li class="is-current outline">
+                                    <span>会社概要</span>
+                                </li>
+                            <li class="employment">
+                                                <a href="/27/pc/search/corp222914/employment.html" id="headerEmploymentTabLink">
+                                                    採用データ
+                                                </a></li>
+                                        <li class="ob">
+                                                    <a href="/27/pc/search/corp222914/obog.html" id="headerObogTabLink">
+                                                        先輩情報
+                                                    </a></li>
+                                            </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    <form id="stuCorpHeaderFooterDto" action="/corpinfo/displayOutline/index" method="post"><input id="disp" name="disp" type="hidden" value=""/><input id="mode" name="mode" type="hidden" value=""/><input id="corpId" name="corpId" type="hidden" value="222914"/><div>
+<input type="hidden" name="_csrf" value="ec6118bb-d661-492c-a39d-0a034f12a92f" />
+</div></form><form id="stuCorpHeaderFooterDto" action="/corpinfo/displayEmployment/index" method="post"><input id="disp" name="disp" type="hidden" value=""/><input id="mode" name="mode" type="hidden" value=""/><input id="corpId" name="corpId" type="hidden" value="222914"/><div>
+<input type="hidden" name="_csrf" value="ec6118bb-d661-492c-a39d-0a034f12a92f" />
+</div></form><form id="stuCorpHeaderFooterDto" action="/corpinfo/displayObogList/index" method="post"><input id="disp" name="disp" type="hidden" value=""/><input id="mode" name="mode" type="hidden" value=""/><input id="corpId" name="corpId" type="hidden" value="222914"/><input id="obogNo" name="obogNo" type="hidden" value=""/><div>
+<input type="hidden" name="_csrf" value="ec6118bb-d661-492c-a39d-0a034f12a92f" />
+</div></form><form id="stuCorpHeaderFooterDto" action="/corpinfo/displayPremium/index" method="post"><input id="disp" name="disp" type="hidden" value=""/><input id="mode" name="mode" type="hidden" value=""/><input id="corpId" name="corpId" type="hidden" value="222914"/><input type="hidden" name="optNo" id="optNo" value=""/>
+        <div>
+<input type="hidden" name="_csrf" value="ec6118bb-d661-492c-a39d-0a034f12a92f" />
+</div></form><form id="stuCorpHeaderFooterDto" action="/corpinfo/displayPremiumList/index" method="post"><input id="disp" name="disp" type="hidden" value=""/><input id="mode" name="mode" type="hidden" value=""/><input id="corpId" name="corpId" type="hidden" value="222914"/><div>
+<input type="hidden" name="_csrf" value="ec6118bb-d661-492c-a39d-0a034f12a92f" />
+</div></form><form id="stuCorpHeaderFooterDto" action="/corpinfo/displayThemeList/index" method="post"><input id="disp" name="disp" type="hidden" value=""/><input id="mode" name="mode" type="hidden" value=""/><input id="corpId" name="corpId" type="hidden" value="222914"/><div>
+<input type="hidden" name="_csrf" value="ec6118bb-d661-492c-a39d-0a034f12a92f" />
+</div></form><form id="stuCorpHeaderFooterDto" action="/corpinfo/displayTheme/index" method="post"><input id="disp" name="disp" type="hidden" value=""/><input id="mode" name="mode" type="hidden" value=""/><input id="corpId" name="corpId" type="hidden" value="222914"/><input id="answer" name="answer" type="hidden" value=""/><div>
+<input type="hidden" name="_csrf" value="ec6118bb-d661-492c-a39d-0a034f12a92f" />
+</div></form></div>
+
+	<form id="displayOutlineForm" action="/27/pc/search/corp222914/outline.html" method="post"><input id="corpId" name="corpId" type="hidden" value="222914"/><input id="disp" name="disp" type="hidden" value=""/><input id="mode" name="mode" type="hidden" value=""/><input id="primeDesignImgDispFlg" name="primeDesignImgDispFlg" type="hidden" value=""/><input id="primeDesignImgDispUrl" name="primeDesignImgDispUrl" type="hidden" value=""/><input id="primeDesignImgUrl" name="primeDesignImgUrl" type="hidden" value=""/><div class="companyInfo">
+		<div class="boxAnc">
+			<ul class="listAnc">
+			<li><a href="#introduction">会社紹介記事</a></li>
+				<li><a href="#companyData">会社データ</a></li>
+			<li><a href="#workstyleData">働き方データ</a></li>
+			<li><a href="#inHouseSystem">社内制度</a></li>
+				<li><a href="#recruitRecord">採用実績</a></li>
+			</ul>
+		</div>
+		<h2 class="companyLead" id="corpCatch">【動物・ペット好き 集合！】株式会社アミーゴは、ペットショップの「アミーゴ」「ペットフォレスト」「ジョーカー」の3ブランドを運営しています。</h2>
+			<div class="mainImg pcOnly">
+			</div>
+		<div class="companyMessage premium">
+					<ul class="c-label-list" id="corpActivityIcon">
+							<li id="corpMcbIcon" class="c-label c-label-03">My Career Boxで応募可</li>
+							</ul>
+					<div class="hdg">
+						<h2 id="corpMessageTitle">
+							「アミーゴ」のページをご覧いただきありがとうございます！WEB動画会社説明会公開中！＜すぐに視聴可＞<span class="date" id="corpMessageDate"> （2026/07/16更新） </span>
+							</h2>
+						<p class="pct">
+								<img src="https://job.mynavi.jp/common/img27/advance/222914-a1-7.jpg" alt="伝言板画像" loading="lazy" class="image-clickBlock"></img></p>
+						</div>
+
+					<div class="messageArea jsSlideToggleMessage">
+						<div class="messageAreaInner jsSlideToggleInner" id="corpMessageBody">
+							<p>こんにちは、採用担当の小畠（こばた）です。<br/><br/>（株）アミーゴは総合ペットショップ「アミーゴ」88店舗、「ペットフォレスト」25店舗と犬猫専門店の「ジョーカー」18店舗の3ブランドで131店舗を展開している企業です。<br/>ペットに興味がある方は是非説明会にご参加ください。<br/><br/>・WEB会社説明会（録画配信）公開中！＜すぐに視聴可＞<br/>視聴予約後すぐにご覧いただけます。遠方の方や多忙な方もお気軽にご利用ください。<br/><br/>皆さんのご参加を心よりお待ちしております！<br/><br/>TEL：03-5207-2738<br/>担当：小畠（こばた）</p>
+						</div>
+						<div class="btn">
+	    					<a href="#" class="link-02"><span>もっと見る</span></a>
+		    			</div>
+					</div>
+				</div>
+			<div class="js-modal-slider">
+				<div class="js-modal-outer">
+					<button type="button" class="close-test">閉じる</button>
+					<div class="slider slider-modal">
+						<div><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb4_0001.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></div>
+						<div><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb5_0001.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></div>
+						<div><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb7.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></div>
+						<div><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb2_0001.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></div>
+						<div><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb3_0001.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></div>
+						<div><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb1.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></div>
+						<div><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb8.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></div>
+						<div><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb9.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></div>
+						</div>
+				</div>
+				<div class="slider slider-nav">
+					<div><button type="button" onclick="gtag('event', 'clickcount_corp_outline', {'click_content':'サムネイル','click_sub_content':'画像','corp_id':'id_222914'});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb4_0001.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></button></div>
+					<div><button type="button" onclick="gtag('event', 'clickcount_corp_outline', {'click_content':'サムネイル','click_sub_content':'画像','corp_id':'id_222914'});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb5_0001.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></button></div>
+					<div><button type="button" onclick="gtag('event', 'clickcount_corp_outline', {'click_content':'サムネイル','click_sub_content':'画像','corp_id':'id_222914'});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb7.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></button></div>
+					<div><button type="button" onclick="gtag('event', 'clickcount_corp_outline', {'click_content':'サムネイル','click_sub_content':'画像','corp_id':'id_222914'});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb2_0001.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></button></div>
+					<div><button type="button" onclick="gtag('event', 'clickcount_corp_outline', {'click_content':'サムネイル','click_sub_content':'画像','corp_id':'id_222914'});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb3_0001.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></button></div>
+					<div><button type="button" onclick="gtag('event', 'clickcount_corp_outline', {'click_content':'サムネイル','click_sub_content':'画像','corp_id':'id_222914'});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb1.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></button></div>
+					<div><button type="button" onclick="gtag('event', 'clickcount_corp_outline', {'click_content':'サムネイル','click_sub_content':'画像','corp_id':'id_222914'});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb8.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></button></div>
+					<div><button type="button" onclick="gtag('event', 'clickcount_corp_outline', {'click_content':'サムネイル','click_sub_content':'画像','corp_id':'id_222914'});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb9.jpg" alt="モーダルウィンドウを開きます" loading="lazy"></img></button></div>
+					</div>
+			</div>
+			<script>
+				var videoIds = [];
+				</script>
+		<div class="companyPointList colorlistbox" id="companyPointList">
+				<h3><span>企業のここがポイント</span></h3>
+				<ul>
+					<li class="pointList" id="js-pointList">
+							<h4>やりがい</h4>
+							<p>「飼い主様とペットに幸せな暮らしをおくっていただく」ために店運営をし、お客様に楽しさ喜びを伝えます。</p>
+							</li>
+						<li class="pointList" id="js-pointList">
+							<h4>制度・働き方</h4>
+							<p>教育・研修制度が充実し、資格取得支援制度や社宅・家賃補助制度もあります。</p>
+							</li>
+						<li class="pointList" id="js-pointList">
+							<h4>安定性・将来性</h4>
+							<p>3ブランドの強みをブランド内で共有・習得することでさらに企業としてのレベルアップに努めています。</p>
+							</li>
+						</ul>
+			</div>
+		<div class="companySec">
+				<h2 id="introduction" class="dtHead2">会社紹介記事</h2>
+					<div class="inner">
+						<table class="dataTable last has-bg">
+								<tr>
+									<td>
+										<div class="pct2c">
+											<dl class="box1">
+													<dt>
+																<img src="https://job.mynavi.jp/common/img27/advance/222914-a1-1.jpg" alt="PHOTO" loading="lazy" class="image-clickBlock"></img></dt>
+														<dd class="sameSize" id="advanceInfoCaptionLeft">ペットショップ「アミーゴ」88店舗、「ペットフォレスト」25店舗、「ジョーカー」18店舗の合計131店舗を展開。新しい試みに挑み、多くのペット愛好家に信頼されています。</dd>
+													</dl>
+											<dl class="box2">
+													<dt>
+																<img src="https://job.mynavi.jp/common/img27/advance/222914-a1-2.jpg" alt="PHOTO" loading="lazy" class="image-clickBlock"></img></dt>
+														<dd class="sameSize" id="advanceInfoCaptionRight">イベントにも力を入れています。働き甲斐のある仕事だと思います。</dd>
+													</dl>
+											</div>
+									</td>
+								</tr>
+							</table>
+							<h3 class="dtHead" id="advanceInfoTitle">～人も動物も幸せに～</h3>
+						<table class="dataTable last">
+								<tbody>
+									<tr>
+										<td class="heading">
+												<div class="headingPictWrapper advance">
+													<p class="img">
+														<img src="https://job.mynavi.jp/common/img27/advance/222914-a1-8.jpg" alt="PHOTO" width="160" loading="lazy" class="image-clickBlock"></img></p>
+													<p class="txt" id="coverageArticleCaption">
+														動物は私たちの生活にとって欠かせない存在です。</p>
+												</div>
+											</td>
+										<td>
+											<p class="sameSize" id="advanceInfoBody">
+												■お客様と心の通う接客を目指して<br/>「ペットを飼うなら、やはりアミーゴだよね。」と多くの方々におっしゃっていただけるのは当社の強み。長きにわたり、地域の皆様に親しまれているのは、動物という枠組みにとらわれず、時代と共に変わり続けてきたからだと思います。お客様が何を求めているのかを把握し、サービスや新しい価値を提供していくこと。店舗自体、そして何より社員一人ひとりの意識が変化を拒んでいてはお客様に受け入れてもらえません。お客様に満足して帰っていただくことはもちろん、私たちがお客様との会話の中から情報を得ることも大切な仕事の一つ。それをサービスの向上に生かし、常に「半歩先」を心掛けています。<br/><br/>■教育研修は充実！早いスキルアップができるのも当社の魅力です。<br/>当社では25歳で店長に就任するかたもいます。早期から責任のあるポジションを任せられるのは、当社の充実した研修制度があるからだと考えています！新入社員研修はもちろん、各階層ごとに研修を実施します。その先にあるのは、「常にお客様の満足を第一に。でも社員も満足する働き方ができること」これが研修を取り入れている理由です。社会人になると苦労することも多くあります。時には挫折し、悩むこともあるかもしれません。そんな時には同期の繋がりを大切に。働く環境整備に取り組んでいます！<br/><br/>私たちのコンセプトの一つは「チャレンジ」。町の中の一つの機能として、買い物をきっかけに、それ以外のサービスも含めて楽しく過ごしていただける空間づくりを進め、それを地域活性化につなげていきたいという思いがあります。私たちは企業の一員であると同時に、地域の一員です。「アミーゴは活気がある」「過ごしやすくて暮らしやすい」と若い人に感じてほしい。体感いただくためにもインターンシップ・業界研究へのご参加をお待ちしております。</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+				</div>
+		<div class="companySec">
+				<h2 id="companyData" class="dtHead">会社データ</h2>
+				<div class="inner">
+					<table class="dataTable dataTable02 last dataTableTop">
+							<tr>
+											       <td class="heading" id="corpDescDtoListDescTitle35">プロフィール<br></td>
+													<td class="sameSize">
+														<p id="corpDescDtoListDescText35">「アミーゴ」は犬・猫・魚類・小鳥、爬虫類、昆虫など多種多様なCA(生体）を扱い、ペット用品の販売をはじめペットホテル・トリミング・トレーニング等のサービス面もかねそろえた総合的な大型ペットショップです。また、社員による売場作りも特徴的です。社員により提案・開発された自社商品を置くなど、お客様に「またアミーゴにきたい！」と感じてもらえるような、オリジナルな売場を設けています。また、各地域のお客様に親しみを持って頂けるよう、イベントや教室なども実施中。今後も、お客様にとって、ペットにとって、社員みんなにとっても、日本一のペットショップになるよう邁進し続けます！<br/><br/>「ペットフォレスト」は神奈川・西東京をドミナント展開する総合ペットショップです。<br/>「ジョーカー」は関東を中心に、大型施設内に出店している、犬猫に特化した専門店です。</p>
+														</td>
+												</tr>
+											<tr>
+											       <td class="heading" id="corpDescDtoListDescTitle100">事業内容<br><ul class="c-label-list">
+           												    </ul>
+        											     </td>
+													<td class="sameSize">
+														<div class="item" id="corpDescDtoListDescText100">アミーゴは各地域に根差した店舗運営を目指しているため、大型のショッピングセンターへの出店ではなく、ロードサイドへの出店を行っています。大型のペットショップのないエリアにも新規出店をすることで、ペットの生活文化の向上を目指しさまざまな取り組みを進めています。【飼い主様とペットに幸せな暮らしをおくっていただく】ために、働く従業員も楽しみながら商品・情報を提供することで、お客様に楽しさ喜びを伝えるよう店舗運営をしています。<br/><br/>ペットフォレストは神奈川・西東京を中心としてドミナント展開を行っているペットショップです。<br/>ジョーカーは関東を中心に、大型施設内に出店している、犬猫に特化した専門店です。</div>
+														</td>
+												</tr>
+											</table>
+					<table class="dataTable dataTable02 last dataTableBottom">
+							<tr>
+													<th scope="row" id="corpDescDtoListDescTitle40">本社郵便番号</th>
+													<td class="sameSize" id="corpDescDtoListDescText40">101-0046</td>
+												</tr>
+											<tr>
+													<th scope="row" id="corpDescDtoListDescTitle50">本社所在地</th>
+													<td class="sameSize" id="corpDescDtoListDescText50">東京都千代田区神田多町2-1　神田進興ビル4階</td>
+												</tr>
+											<tr>
+													<th scope="row" id="corpDescDtoListDescTitle220">本社電話番号</th>
+													<td class="sameSize" id="corpDescDtoListDescText220">03-5207-2738</td>
+												</tr>
+											<tr>
+													<th scope="row" id="corpDescDtoListDescTitle240">創業</th>
+													<td class="sameSize" id="corpDescDtoListDescText240">1996年3月</td>
+												</tr>
+											<tr>
+													<th scope="row" id="corpDescDtoListDescTitle250">設立</th>
+													<td class="sameSize" id="corpDescDtoListDescText250">2016年11月</td>
+												</tr>
+											<tr>
+													<th scope="row" id="corpDescDtoListDescTitle260">資本金</th>
+													<td class="sameSize" id="corpDescDtoListDescText260">1億円</td>
+												</tr>
+											<tr>
+													<th scope="row" id="corpDescDtoListDescTitle270">従業員</th>
+													<td class="sameSize" id="corpDescDtoListDescText270">2,237人</td>
+												</tr>
+											<tr>
+													<th scope="row" id="corpDescDtoListDescTitle300">売上高</th>
+													<td class="sameSize" id="corpDescDtoListDescText300">255億円　2025年2月期</td>
+												</tr>
+											<tr>
+									<th scope="row" id="outlineInfoListDescTitle310">事業所</th>
+									<td class="sameSize" id="outlineInfoListDescText310">アミーゴ：東北、関東、中部、関西、中国、四国地方に総合ペットショップを出店<br/>ペットフォレスト：神奈川、西東京を中心に総合ペットショップを出店<br/>ジョーカー：関東の大型施設内に犬猫専門店を出店</td>
+								</tr>
+							<tr>
+									<th scope="row" id="outlineInfoListDescTitle360">平均年齢</th>
+									<td class="sameSize" id="outlineInfoListDescText360">33.3才</td>
+								</tr>
+							<tr>
+									<th scope="row" id="outlineInfoListDescTitle370">平均勤続年数</th>
+									<td class="sameSize" id="outlineInfoListDescText370">9.7年</td>
+								</tr>
+							<tr>
+									<th scope="row" id="historyTitle">沿革</th>
+									<td class="sameSize">
+										<ul class="listHistory">
+										<li>
+													<span class="year" id="historyInfoList0.descTitle"> 1996年3月</span>
+													<ul>
+														<li id="historyInfoList0.descText">ペットワールドアミーゴ1号店、妹尾店（岡山県岡山市）を開店 (旧リックコーポレーション）</li>
+													</ul>
+												</li>
+											<li>
+													<span class="year" id="historyInfoList1.descTitle"> 2009年3月</span>
+													<ul>
+														<li id="historyInfoList1.descText">(株)ダイユーエイト（福島県福島市）と業務・資本提携</li>
+													</ul>
+												</li>
+											<li>
+													<span class="year" id="historyInfoList2.descTitle"> 2009年9月</span>
+													<ul>
+														<li id="historyInfoList2.descText">(株)ダイユーエイト社ペットワールドアミーゴ1号店、福島西店（福島県福島市）を開店</li>
+													</ul>
+												</li>
+											<li>
+													<span class="year" id="historyInfoList3.descTitle"> 2015年9月</span>
+													<ul>
+														<li id="historyInfoList3.descText">(株)ジョーカーを子会社化 （旧リックコーポレーション）</li>
+													</ul>
+												</li>
+											<li>
+													<span class="year" id="historyInfoList4.descTitle"> 2016年11月</span>
+													<ul>
+														<li id="historyInfoList4.descText">旧リックコーポレーションとダイユーエイトからペット事業を独立し、(株)アミーゴ設立</li>
+													</ul>
+												</li>
+											<li>
+													<span class="year" id="historyInfoList5.descTitle"> 2024年9月</span>
+													<ul>
+														<li id="historyInfoList5.descText">日本一のペットショップを目指すために、（株）アミーゴ、（株）ジョーカー、ペットフォレストを統合</li>
+													</ul>
+												</li>
+											</ul>
+									</td>
+								</tr>
+							</table>
+									</div>
+									</div>
+								<div class="companySec">
+														<h2 id="workstyleData" class="dtHead">働き方データ</h2>
+															<div class="inner">
+															<ul class="workstyleData">
+																<li class="workstyleDataItem">
+																					<div id="outlineAfterInfoListDescTitle630" class="row">平均勤続勤務年数</div>
+																					<div id="outlineAfterInfoListDescText630" class="workstyleScore">
+																						<div class="workstyleIcon">
+																							<img src="/27/pc/resources/images/icon/icon_timeForward-20260210005841.svg" alt="平均勤続勤務年数" height="48px" width="48px" loading="lazy" class="Cy07"></img></div>
+																						<div class="workstyleText">
+																							<ul>
+																								<li><span>9.7</span>年</li>
+																							</ul>
+																							<span class="year">2025年度</span>
+																						</div>
+																					</div>
+																					</li>
+																				<li class="workstyleDataItem">
+																						<div id="outlineAfterInfoListDescTitle640" class="row">月平均所定外労働時間（前年度実績）</div>
+																						<div id="outlineAfterInfoListDescText640" class="workstyleScore">
+																							<div class="workstyleIcon">
+																								<img src="/27/pc/resources/images/icon/icon_working-20260210005841.svg" alt="月平均所定外労働時間（前年度実績）" height="48px" width="48px" loading="lazy" class="Cy07"></img></div>
+																							<div class="workstyleText">
+																								<ul>
+																									<li><span>14.5</span>時間</li>
+																								</ul>
+																								<span class="year">2025年度</span>
+																							</div>
+																						</div>
+																					 </li>
+																				<li class="workstyleDataItem">
+																						<div id="outlineAfterInfoListDescTitle650" class="row">平均有給休暇取得日数（前年度実績）</div>
+																						<div id="outlineAfterInfoListDescText650" class="workstyleScore">
+																							<div class="workstyleIcon">
+																								<img src="/27/pc/resources/images/icon/icon_holiday-20260210005841.svg" alt="平均有給休暇取得日数（前年度実績）" height="48px" width="48px" loading="lazy" class="Cy07"></img></div>
+																							<div class="workstyleText">
+																								<ul>
+																									<li><span>7.3</span>日</li>
+																								</ul>
+																								<span class="year">2025年度</span>
+																							</div>
+																						</div>
+																					</li>
+																				<li class="workstyleDataItem">
+																						<div id="outlineAfterInfoListDescTitle651" class="row">前年度の育児休業対象者数・取得者数（男女別）</div>
+																						<div id="outlineAfterInfoListDescText651" class="workstyleScore">
+																							<table>
+																								<tr>
+																									<th><span class="year workstyleYear">2025年度</span></th>
+																									<th><img src="/27/pc/resources/images/icon/icon_male-Cy07-20260210005841.svg" alt="前年度の育児休業対象者数・取得者数（男女別）(男性)" height="51px" width="35px" loading="lazy"></img></th>
+																									<th><img src="/27/pc/resources/images/icon/icon_female-Cy07-20260210005841.svg" alt="前年度の育児休業対象者数・取得者数（男女別）(女性)" height="51px" width="35px" loading="lazy"></img></th>
+																									<th><img src="/27/pc/resources/images/icon/icon_persons-Cy07-20260210005841.svg" alt="前年度の育児休業対象者数・取得者数（男女別）(合計)" height="51px" width="40px" loading="lazy"></img></th>
+																								</tr>
+																								<tr class="workstyleText tableDetail">
+																									<td><span class="wsLabel">対象者</span></td>
+																									<td><span>5</span>名</td>
+																									<td><span>1</span>名</td>
+																									<td><span>6</span>名</td>
+																								</tr>
+																								<tr class="workstyleText tableDetail">
+																									<td><span class="wsLabel">取得者</span></td>
+																									<td><span>2</span>名</td>
+																									<td><span>1</span>名</td>
+																									<td><span>3</span>名</td>
+																								</tr>
+																							</table>
+																						</div>
+																					</li>
+																				<li class="workstyleDataItem">
+																						<div id="outlineAfterInfoListDescTitle652" class="row">前年度の育児休業取得率（男女別）</div>
+																						<div id="outlineAfterInfoListDescText652" class="workstyleScore">
+																							<span class="year">2025年度</span>
+																							<div class="pieChart">
+																								<p>男性</p>
+																								<div class="pieChartDetail" id="rateManBlock">
+																									<div><span id="rateMan">40.0</span>%</div>
+																								</div>
+																							</div>
+																							<div class="pieChart">
+																								<p>女性</p>
+																								<div class="pieChartDetail" id="rateWomanBlock">
+																									<div><span id="rateWoman">100</span>%</div>
+																								</div>
+																							</div>
+																						</div>
+																					</li>
+																				<li class="workstyleDataItem">
+																						<div id="outlineAfterInfoListDescTitle680" class="row">役員及び管理的地位にある者に占める女性の割合</div>
+																						<div id="outlineAfterInfoListDescText680" class="workstyleScore">
+																							<div class="workstyleIcon">
+																							<img src="/27/pc/resources/images/icon/icon_multipleUsers-20260210005841.svg" alt="役員及び管理的地位にある者に占める女性の割合" height="48px" width="48px" loading="lazy" class="Cy07"></img></div>
+																							<div class="workstyleText">
+																								<ul>
+																									<li><span>0</span>%<br>（6名中0名）</li>
+																									<li class="year">2025年度</li>
+																								</ul>
+																								<p></p>
+																							</div>
+																						</div>
+																					</li>
+																				</ul>
+															</div>
+														</div>
+
+															<div class="companySec" id="inHouseSystem">
+															<h2 class="dtHead">社内制度</h2>
+															<div class="inner">
+																<table class="dataTable last dataTable02">
+																	<tr id="kensyu">
+																						<th class="heading" scope="row" id="outlineAfterInfoListDescTitle4090">研修制度</th>
+																						<td class="sameSize" id="hasTrainingPgm">
+																							
+																								制度あり
+																								<br>
+																							入社研修、入社半年研修、入社1年研修、入社2年研修</td>
+																					</tr>
+																				<tr id="keihatsu">
+																						<th class="heading" scope="row" id="outlineAfterInfoListDescTitle4100">自己啓発支援制度</th>
+																						<td class="sameSize" id="hasPersonalDevelopPgm">
+																							
+																								制度あり
+																								<br>
+																							愛玩動物飼養管理士、家庭動物管理士、販売士他<br/>資格取得の取得費用一部会社負担あり</td>
+																					</tr>
+																				<tr id="mentor">
+																						<th class="heading" scope="row" id="outlineAfterInfoListDescTitle4110">メンター制度</th>
+																						<td class="sameSize" id="hasMentorPgm">
+																							
+																								制度なし
+																								<br>
+																							</td>
+																					</tr>
+																				<tr id="carrier">
+																						<th class="heading" scope="row" id="outlineAfterInfoListDescTitle4120">キャリアコンサルティング制度</th>
+																						<td class="sameSize" id="hasCarrierConsultingPgm">
+																							
+																								制度なし
+																								<br>
+																							</td>
+																					</tr>
+																				<tr id="kentei">
+																						<th class="heading" scope="row" id="outlineAfterInfoListDescTitle4130">社内検定制度</th>
+																						<td class="sameSize" id="hasCorpCertificationPgm">
+																							
+																								制度あり
+																								<br>
+																							昇格試験、役職試験等</td>
+																					</tr>
+																				</table>
+															</div>
+															</div>
+															<div class="companySec" id="recruitRecord">
+															<h2 class="dtHead" id="recordTitle">採用実績</h2>
+															<div class="inner">
+																<table class="dataTable last dataTable02">
+																		<tr id="school">
+																						<th scope="row" id="outlineAfterInfoListDescTitle4000">採用実績（学校）</th>
+																						<td class="sameSize has-bg jsSlideToggleMessage-02">
+																							<div class="jsSlideToggleInner">
+																							<p>
+																								<span>＜大学＞</span>
+																									<br>
+																									愛知学院大学、秋田大学、麻布大学、石巻専修大学、愛媛大学、奥羽大学、大阪学院大学、大阪経済大学、大阪産業大学、岡山大学、岡山商科大学、岡山理科大学、帯広畜産大学、香川大学、神奈川工科大学、北里大学、京都産業大学、近畿大学、倉敷芸術科学大学、県立広島大学、高知工科大学、神戸学院大学、島根大学、就実大学、千葉科学大学、帝京科学大学（東京）、帝京科学大学（山梨）、東海大学、東京農業大学、東北学院大学、東北福祉大学、日本大学、日本獣医生命科学大学、広島経済大学、広島工業大学、広島国際大学、広島修道大学、福島大学、福山大学、山形大学、ヤマザキ動物看護大学、酪農学園大学、立命館大学<br>
+																											<span>＜短大・高専・専門学校＞</span>
+																									<br>
+																									大阪ＥＣＯ動物海洋専門学校、大阪動植物海洋専門学校、大阪動物専門学校、大阪動物専門学校天王寺校、太田動物専門学校、岡山理科大学専門学校、河原アイペットワールド専門学校、神戸女子短期大学、専門学校ルネサンス・ペット・アカデミー、北海道エコ・動物自然専門学校、アジア動物専門学校、東京愛犬専門学校、スカイ総合ペット専門学校、神戸動植物環境専門学校、国際ペット専門学校金沢、国際ペットワールド専門学校、仙台ＥＣＯ動物海洋専門学校、仙台総合ペット専門学校、つくば国際ペット専門学校、専門学校ビジョナリーアーツ、東北動物看護学院、中央動物専門学校、国際ペット専門学校福井、専門学校ちば愛犬動物フラワー学園、国際動物専門学校、国際アート＆デザイン大学校、大宮国際動物専門学校、高崎動物専門学校、東京コミュニケーションアート専門学校、名古屋ＥＣＯ動物海洋専門学校、日本動物専門学校、専門学校日本動物２１、広島アニマルケア専門学校、広島情報ビジネス専門学校、ＹＩＣ京都ペット総合専門学校<br>
+																											</p>
+																								<p id="outlineAfterInfoListDescText4000">専門学校ビジネスアカデミー、専門学校大阪ビジネスアカデミー、、アッシュトリマーズスクール、東京ECO動物海洋専門学校</p>
+																							</div>
+																							<div class="btn">
+																								<a href="#" class="link-02"><span>もっと見る</span></a>
+																								</div>
+																						</td>
+																					</tr>
+																				<tr id="ninzuu">
+																						<th class="heading" id="outlineAfterInfoListDescTitle4010">採用実績（人数）</th>
+																						<td class="sameSize" id="outlineAfterInfoListDescText4010">　　　　　　　　　2023年　2024年　2025年<br/>---------------------------------------------------------<br/>大卒　　　　　　　14名　　 7名　　  20名　　　　<br/>短大専門卒　　　　24名　　29名　　60名</td>
+																					</tr>
+																				</table>
+																<ul class="recruitData">
+																	<li class="recruitDataItem">
+																						<div class="row">過去3年間の新卒採用者数（男女別）</div>
+																						<div class="recruitScore">
+																							<table>
+																								<tr>
+																									<th><span class="year"></span></th>
+																									<th><img src="/27/pc/resources/images/icon/icon_male-Cy07-20260210005841.svg" alt="過去3年間の新卒採用者数(男性)" height="51px" width="35px" loading="lazy"></img></th>
+																									<th><img src="/27/pc/resources/images/icon/icon_female-Cy07-20260210005841.svg" alt="過去3年間の新卒採用者数(女性)" height="51px" width="35px" loading="lazy"></img></th>
+																									<th><img src="/27/pc/resources/images/icon/icon_persons-Cy07-20260210005841.svg" alt="過去3年間の新卒採用者数(合計)" height="51px" width="40px" loading="lazy"></img></th>
+																								</tr>
+																								<tr class="recruitText">
+																									<td><span class="year">2025年</span></td>
+																									<td><span>25</span>名</td>
+																									<td><span>55</span>名</td>
+																									<td><span>80</span>名</td>
+																								</tr>
+																								<tr class="recruitText">
+																									<td><span class="year">2024年</span></td>
+																									<td><span>14</span>名</td>
+																									<td><span>22</span>名</td>
+																									<td><span>36</span>名</td>
+																								</tr>
+																								<tr class="recruitText">
+																									<td><span class="year">2023年</span></td>
+																									<td><span>16</span>名</td>
+																									<td><span>22</span>名</td>
+																									<td><span>38</span>名</td>
+																								</tr>
+																							</table>
+																						</div>
+																					</li>
+																				<li class="recruitDataItem">
+																						<div class="row">過去3年間の新卒採用者数・<br>離職者数・定着率</div>
+																						<div class="recruitScore">
+																							<table>
+																								<tr>
+																									<th><span class="year"></span></th>
+																									<th><span class="rdLabel">採用者</span></th>
+																									<th><span class="rdLabel">離職者</span></th>
+																									<th><span class="rdLabel">定着率</span></th>
+																								</tr>
+																								<tr class="recruitText">
+																									<td><span class="year">2025年</span></td>
+																									<td><span>80</span>名</td>
+																									<td><span>11</span>名</td>
+																									<td><span>86.3</span>%</td>
+																								</tr>
+																								<tr class="recruitText">
+																									<td><span class="year">2024年</span></td>
+																									<td><span>36</span>名</td>
+																									<td><span>14</span>名</td>
+																									<td><span>61.1</span>%</td>
+																								</tr>
+																								<tr class="recruitText">
+																									<td><span class="year">2023年</span></td>
+																									<td><span>38</span>名</td>
+																									<td><span>18</span>名</td>
+																									<td><span>52.6</span>%</td>
+																								</tr>
+																							</table>
+																						</div>
+																					</li>
+																				</ul>
+																</div>
+
+															</div>
+
+
+														<div class="box01" id="senior">
+																	<h2 class="dtHead" id="obogInfoHeader">先輩情報</h2>
+																	<div class="inner">
+																		<div class="lytImage separate left">
+																			<div class="text">
+																				<dl class="profile">
+																					<dt>
+																						<a href="/27/pc/search/corp222914/obog25020369/obog.html" id="obogCatchCopy">日々自身の成長を感じることができる仕事です！</a></dt>
+																					<dd>
+																						<div id="obogName">S.K</div>
+																						<div id="obogJoiningCompanyYear">2023年入社</div>
+																						<div id="obogAge">25歳</div>
+																						<div id="obogUniversityName">県立広島大学</div>
+																						<div id="obogUnivBelongName">人間文化学部国際文化学科　卒業</div>
+																						<div id="obogWorkInfo">接客、生き物のお世話、商品発注など</div>
+																						</dd>
+																				</dl>
+																			</div>
+
+																			<div class="image">
+																				<a href="/27/pc/search/corp222914/obog25020369/obog.html" id="obogLink"><img src="https://job.mynavi.jp/common/img27/obog/222914-25020369obog-s.jpg" alt="PHOTO" loading="lazy"></img></a></div>
+																		</div>
+																	</div>
+																</div>
+															<div class="companySec" id="qrcode">
+																<h3 class="dtHead" id="corpDescDtoListDescTitle110">QRコード</h3>
+																<div class="inner">
+																	<div class="pctL">
+																		<img src="https://job.mynavi.jp/common/img27/qrcode/qr222914.gif" alt="QRコード" height="135" width="135" loading="lazy"></img></div>
+																	<div class="txtR">
+																		<p class="sameSize">https://job.mynavi.jp/27/pc/search/corp222914/outline.html<br>
+																			
+																				外出先やちょっとした空き時間に、スマートフォンでマイナビを見てみよう！<br>
+																				※QRコードの商標はデンソーウェーブの登録商標です。
+																			</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footerWrap">
+
+															<div id="localNaviWrap">
+		            	<div id="localNavi">
+		           			<div class="inner">
+		          				<div class="localNavi-list of-current bottom">
+					                <ul>
+                                        <li class="is-current outline">
+                                                <span>会社概要</span>
+                                            </li>
+                                        <li class="employment">
+						                                    <a href="/27/pc/search/corp222914/employment.html" id="footerEmploymentTabLink">
+						                                                            採用データ
+						                                    </a></li>
+						                            <li class="ob">
+					                                                <a href="/27/pc/search/corp222914/obog.html" id="headerObogTabLink">
+					                                                                                                先輩情報
+					                                                </a></li>
+					                                        </ul>
+				            	</div>
+		            		</div><!-- /.inner -->
+		            	</div><!-- /#localNavi -->
+		            </div><!-- /#localNaviWrap -->
+		        <div class="aiRecomend recomend">
+		<div>
+			<p>画像からAIがピックアップ</p>
+
+			<div class="aiPickup">
+				<div class="aiPickup-img" id="corpImg">
+					<img src="https://job.mynavi.jp/common/img27/crp_thumb/222914-thumb5_0001.jpg" alt="(株)アミーゴ"></img></div>
+				<div class="aiPickup-box" id="corpName">
+					<p class="aiPickup-txt">
+						<img src="/27/pc/resources/images/icons/ai-search_icon-20260210005841.png" alt="似た雰囲気の画像から探すアイコン" class="icon"></img>(株)アミーゴの画像と似た雰囲気の画像から企業をおすすめしています。
+					</p>
+				</div>
+			</div>
+
+			<div id="aiRcmdRelInfoDtoList">
+			<div class="linkList split intent">
+				<div class="slideItem label js-add-examination-list" data-slick-index="0" aria-hidden="false" tabindex="-1">
+							<div class="lytImage separate right">
+								<div class="text js-add-examination-list-text">
+									<a href="/27/pc/search/corp216588/outline.html?func=corpinfo" id="aiRcmdRelInfoDtoList[0].relCorpName" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;AIリコメンド画像（１）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;小泉アフリカ・ライオン・サファリ(株)【富士サファリパーク】&#39;,&#39;corp_id&#39;:&#39;id_216588&#39;});">小泉アフリカ・ライオン・サファリ(株)【富士サファリパーク】</a></div>
+								<div class="image">
+									<a href="/27/pc/search/corp216588/outline.html?func=corpinfo" id="aiRcmdRelInfoDtoList[0].relCorpImg" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;AIリコメンド画像（１）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;小泉アフリカ・ライオン・サファリ(株)【富士サファリパーク】&#39;,&#39;corp_id&#39;:&#39;id_216588&#39;});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/216588-thumb1_0001.jpg" alt="小泉アフリカ・ライオン・サファリ(株)【富士サファリパーク】"></img></a></div>
+							</div>
+
+							<dl class="linkCategory">
+								<dt>業種</dt>
+								<dd id="aiRcmdRelInfoDtoList[0].relInd">レジャーサービス</dd>
+								<dt>本社</dt>
+								<dd id="aiRcmdRelInfoDtoList[0].relHq">静岡県</dd>
+							</dl>
+
+							<div class="btnWrapper">
+									<ul class="listBtn01 js-add-examination-list">
+										<li class="bookmark">
+													<a target="_blank" href="/27/pc/user/registBookmark/index?opttype=bookmark&amp;corpId=216588" id="$aiRcmdRelInfoDtoList0.visitorRegistBookmarkBtn" class="button btn-02 large js-add-examination-list-button" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;member&#39;:&#39;非会員&#39;,&#39;click_content&#39;:&#39;AIリコメンド画像（１）（検討リスト登録）&#39;,&#39;click_sub_content&#39;:&#39;小泉アフリカ・ライオン・サファリ(株)【富士サファリパーク】&#39;,&#39;corp_id&#39;:&#39;id_216588&#39;});">検討リスト登録</a></li>
+												</ul>
+						</div>
+							</div>
+							<div class="slideItem label js-add-examination-list" data-slick-index="0" aria-hidden="false" tabindex="-1">
+							<div class="lytImage separate right">
+								<div class="text js-add-examination-list-text">
+									<a href="/27/pc/search/corp293524/outline.html?func=corpinfo" id="aiRcmdRelInfoDtoList[1].relCorpName" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;AIリコメンド画像（１）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;(株)JPR【プリモ動物病院グループ】&#39;,&#39;corp_id&#39;:&#39;id_293524&#39;});">(株)JPR【プリモ動物病院グループ】</a><span class="c-label c-label-03">閲覧中の企業と本社が同じ</span>
+										</div>
+								<div class="image">
+									<a href="/27/pc/search/corp293524/recruiting_course27060845/recruiting_course.html?func=corpinfo" id="aiRcmdRelInfoDtoList[1].relCorpImg" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;AIリコメンド画像（１）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;(株)JPR【プリモ動物病院グループ】&#39;,&#39;corp_id&#39;:&#39;id_293524&#39;});"><img src="https://job.mynavi.jp/common/img27/advance/293524-27060845-a1-6_0001.jpg" alt="(株)JPR【プリモ動物病院グループ】"></img></a></div>
+							</div>
+
+							<dl class="linkCategory">
+								<dt>業種</dt>
+								<dd id="aiRcmdRelInfoDtoList[1].relInd">サービス（その他）</dd>
+								<dt>本社</dt>
+								<dd id="aiRcmdRelInfoDtoList[1].relHq">東京都</dd>
+							</dl>
+
+							<div class="btnWrapper">
+									<ul class="listBtn01 js-add-examination-list">
+										<li class="bookmark">
+													<a target="_blank" href="/27/pc/user/registBookmark/index?opttype=bookmark&amp;corpId=293524" id="$aiRcmdRelInfoDtoList1.visitorRegistBookmarkBtn" class="button btn-02 large js-add-examination-list-button" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;member&#39;:&#39;非会員&#39;,&#39;click_content&#39;:&#39;AIリコメンド画像（１）（検討リスト登録）&#39;,&#39;click_sub_content&#39;:&#39;(株)JPR【プリモ動物病院グループ】&#39;,&#39;corp_id&#39;:&#39;id_293524&#39;});">検討リスト登録</a></li>
+												</ul>
+						</div>
+							</div>
+							<div class="slideItem label js-add-examination-list" data-slick-index="0" aria-hidden="false" tabindex="-1">
+							<div class="lytImage separate right">
+								<div class="text js-add-examination-list-text">
+									<a href="/27/pc/search/corp258002/outline.html?func=corpinfo" id="aiRcmdRelInfoDtoList[2].relCorpName" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;AIリコメンド画像（１）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;特定非営利活動法人ピースウィンズ・ジャパン&#39;,&#39;corp_id&#39;:&#39;id_258002&#39;});">特定非営利活動法人ピースウィンズ・ジャパン</a></div>
+								<div class="image">
+									<a href="/27/pc/search/corp258002/outline.html?func=corpinfo" id="aiRcmdRelInfoDtoList[2].relCorpImg" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;AIリコメンド画像（１）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;特定非営利活動法人ピースウィンズ・ジャパン&#39;,&#39;corp_id&#39;:&#39;id_258002&#39;});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/258002-thumb3.jpg" alt="特定非営利活動法人ピースウィンズ・ジャパン"></img></a></div>
+							</div>
+
+							<dl class="linkCategory">
+								<dt>業種</dt>
+								<dd id="aiRcmdRelInfoDtoList[2].relInd">財団・社団・その他団体</dd>
+								<dt>本社</dt>
+								<dd id="aiRcmdRelInfoDtoList[2].relHq">広島県</dd>
+							</dl>
+
+							<div class="btnWrapper">
+									<ul class="listBtn01 js-add-examination-list">
+										<li class="bookmark">
+													<a target="_blank" href="/27/pc/user/registBookmark/index?opttype=bookmark&amp;corpId=258002" id="$aiRcmdRelInfoDtoList2.visitorRegistBookmarkBtn" class="button btn-02 large js-add-examination-list-button" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;member&#39;:&#39;非会員&#39;,&#39;click_content&#39;:&#39;AIリコメンド画像（１）（検討リスト登録）&#39;,&#39;click_sub_content&#39;:&#39;特定非営利活動法人ピースウィンズ・ジャパン&#39;,&#39;corp_id&#39;:&#39;id_258002&#39;});">検討リスト登録</a></li>
+												</ul>
+						</div>
+							</div>
+							<div class="slideItem label js-add-examination-list" data-slick-index="0" aria-hidden="false" tabindex="-1">
+							<div class="lytImage separate right">
+								<div class="text js-add-examination-list-text">
+									<a href="/27/pc/search/corp85348/outline.html?func=corpinfo" id="aiRcmdRelInfoDtoList[3].relCorpName" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;AIリコメンド画像（１）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;(株)アルメリア・スパアンドリゾーツ&#39;,&#39;corp_id&#39;:&#39;id_85348&#39;});">(株)アルメリア・スパアンドリゾーツ</a></div>
+								<div class="image">
+									<a href="/27/pc/search/corp85348/outline.html?func=corpinfo" id="aiRcmdRelInfoDtoList[3].relCorpImg" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;AIリコメンド画像（１）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;(株)アルメリア・スパアンドリゾーツ&#39;,&#39;corp_id&#39;:&#39;id_85348&#39;});"><img src="https://job.mynavi.jp/common/img27/crp_thumb/85348-thumb7.jpg" alt="(株)アルメリア・スパアンドリゾーツ"></img></a></div>
+							</div>
+
+							<dl class="linkCategory">
+								<dt>業種</dt>
+								<dd id="aiRcmdRelInfoDtoList[3].relInd">ホテル・旅館</dd>
+								<dt>本社</dt>
+								<dd id="aiRcmdRelInfoDtoList[3].relHq">岐阜県</dd>
+							</dl>
+
+							<div class="btnWrapper">
+									<ul class="listBtn01 js-add-examination-list">
+										<li class="bookmark">
+													<a target="_blank" href="/27/pc/user/registBookmark/index?opttype=bookmark&amp;corpId=85348" id="$aiRcmdRelInfoDtoList3.visitorRegistBookmarkBtn" class="button btn-02 large js-add-examination-list-button" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;member&#39;:&#39;非会員&#39;,&#39;click_content&#39;:&#39;AIリコメンド画像（１）（検討リスト登録）&#39;,&#39;click_sub_content&#39;:&#39;(株)アルメリア・スパアンドリゾーツ&#39;,&#39;corp_id&#39;:&#39;id_85348&#39;});">検討リスト登録</a></li>
+												</ul>
+						</div>
+							</div>
+							</div>
+					</div>
+		</div>
+		<div class="sub appHidden">
+		</div>
+	</div>
+<div id="boxRelatedLinksTop" class="recomend">
+																		<dl>
+																			<dt id="descText">
+																				<em>(株)アミーゴ</em>と業種や本社が同じ企業を探す。
+																			</dt>
+																			<dd>
+																				<table class="recomendInner">
+																					<tbody>
+																						<tr>
+																							<td class="btnLink"><span class="each"><a href="/27/pc/search/query.html?ID:58050/LIDM:1/func=corpFooter" id="detailIndLink" onclick="if(!wasNotSubmittedYet()){return false;} gtag(&#39;event&#39;, &#39;clickcount_corp_outline&#39;, {&#39;click_content&#39;:&#39;業種や本社が同じ企業&#39;,&#39;click_sub_content&#39;:&#39;専門店（その他小売）&#39;});">専門店（その他小売）</a></span>
+																									<span class="each"><a href="/27/pc/search/query.html?ID:58090/LIDM:1/func=corpFooter" id="detailIndLink" onclick="if(!wasNotSubmittedYet()){return false;} gtag(&#39;event&#39;, &#39;clickcount_corp_outline&#39;, {&#39;click_content&#39;:&#39;業種や本社が同じ企業&#39;,&#39;click_sub_content&#39;:&#39;専門店（ホビー・ペット関連）&#39;});">専門店（ホビー・ペット関連）</a></span>
+																									<span class="each"><a href="/27/pc/search/query.html?HR:13/func=corpFooter" id="hqLink" onclick="if(!wasNotSubmittedYet()){return false;} gtag(&#39;event&#39;, &#39;clickcount_corp_outline&#39;, {&#39;click_content&#39;:&#39;業種や本社が同じ企業&#39;,&#39;click_sub_content&#39;:&#39;東京都&#39;});">東京都</a></span>
+																									</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</dd>
+																		</dl>
+																	</div>
+																<script type="text/javascript" src="/27/pc/resources/js/lib/jquery.cookie-20260210005843.js"></script>
+    <script type="text/javascript" src="/27/pc/resources/js/design/common/init_modal-20260210005843.js"></script>
+    <script type="text/javascript">
+
+    function doDeleteReserveListModal() {
+        if(modalDeleteMode=='0'){
+            ST.doDeleteBookmarkWithReserveAsync(modalViewId, modalCorpId);
+        } else if(modalDeleteMode=='1'){
+            doDelete();
+        }
+        cancelDeleteReserveListModal();
+    }
+
+    //画面を閉じる処理
+    function cancelDeleteReserveListModal() {
+        // 予約リスト削除確認ダイアログを表示する
+        $('#displayDeleteBookmarkListWithReserveModal').css("display", "none");
+
+    }
+    </script>
+
+    <div class="boxReserveAlert" style="display:none;" id="displayDeleteBookmarkListWithReserveModal">
+        <div class="inner">
+            <p class="hdg">予約リストからも削除されますがよろしいですか？</p>
+            <ul class="list-btn">
+                <li>
+                    <button type="button" class="btn-01 considerHookRsv agree" onclick="doDeleteReserveListModal();">削除</button>
+                </li>
+                <li>
+                    <button type="button" class="btn-01 considerHookRsv disagree" onclick="cancelDeleteReserveListModal();">キャンセル</button>
+                </li>
+            </ul>
+        </div>
+    </div><div class="recomend">
+		<dl>
+			<dt>
+				<em>(株)アミーゴ</em>を志望している他のマイナビ会員は、このような企業も志望しています。
+			</dt>
+			<dd>
+				<div class="linkList split intent">
+						<div class="slideItem label js-add-examination-list">
+								<div class="lytImage separate right">
+									<div class="text js-add-examination-list-text">
+										<a href="/27/pc/search/corp284905/outline.html?func=corpinfo" id="rcmdInfoList0.rcmdCorpNameLink" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;リコメンド表示（3）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;(株)MOFF&#39;,&#39;corp_id&#39;:&#39;id_284905&#39;});">(株)MOFF</a></div>
+									<div class="image">
+										<a href="/27/pc/search/corp284905/outline.html?func=corpinfo" id="rcmdInfoList0.corpImageLink" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;リコメンド表示（3）（企業名）&#39;,&#39;click_sub_content&#39;:&#39;(株)MOFF&#39;,&#39;corp_id&#39;:&#39;id_284905&#39;});"><img src="https://job.mynavi.jp/common/img27/advance/284905-a1-4.jpg" alt="(株)MOFF"></img></a></div>
+								</div>
+							<dl class="linkCategory">
+								<dt>業種</dt>
+								<dd>
+									アミューズメント・レジャー</dd>
+								<dt>本社</dt>
+								<dd>
+									茨城県</dd>
+							</dl>
+							<div class="btnWrapper">
+									<ul class="listBtn01 js-add-examination-list">
+										<li class="bookmark">
+													<a target="_blank" href="/27/pc/user/registBookmark/index?opttype=bookmark&amp;corpId=284905" id="rcmdInfoList0.visitorRegistBookmarkList" class="button btn-02 large js-add-examination-list-button" onclick="gtag(&#39;event&#39;, &#39;clickcount_inc_recommend&#39;, {&#39;click_content&#39;:&#39;リコメンド表示（3）（検討リスト登録）&#39;,&#39;click_sub_content&#39;:&#39;(株)MOFF&#39;,&#39;corp_id&#39;:&#39;id_284905&#39;});">検討リスト登録
+													</a></li>
+												</ul>
+								</div>
+							</div>
+						</div>
+						</dd>
+		</dl>
+		</div>
+<div id="boxRelatedLinksBottom" class="recomend appHidden">
+																			<dl>
+																				<dt id="crpFeatureCtgListCorpDispText">
+																					<em>(株)アミーゴ</em>と特徴・特色が同じ企業を探す。
+																				</dt>
+																				<dd>
+																					<table class="recomendInner">
+																						<tr>
+																							<td class="btnLink">
+																								<span id="crpFeatureList.corpFeatureTxt1610" class="each"><a href="/27/pc/search/query.html?FE:1610/func=corpFooter" id="featureLink.corpFeatureTxt1610" onclick="if(!wasNotSubmittedYet()){return false;} gtag(&#39;event&#39;, &#39;clickcount_corp_outline&#39;, {&#39;click_content&#39;:&#39;特徴・特色が同じ企業&#39;,&#39;click_sub_content&#39;:&#39;過去10年赤字決算なしなど安定した業績&#39;});">過去10年赤字決算なしなど安定した業績</a></span>
+																								<span id="crpFeatureList.corpFeatureTxt1660" class="each"><a href="/27/pc/search/query.html?FE:1660/func=corpFooter" id="featureLink.corpFeatureTxt1660" onclick="if(!wasNotSubmittedYet()){return false;} gtag(&#39;event&#39;, &#39;clickcount_corp_outline&#39;, {&#39;click_content&#39;:&#39;特徴・特色が同じ企業&#39;,&#39;click_sub_content&#39;:&#39;多角的な事業展開をしている&#39;});">多角的な事業展開をしている</a></span>
+																								<span id="crpFeatureList.corpFeatureTxt1680" class="each"><a href="/27/pc/search/query.html?FE:1680/func=corpFooter" id="featureLink.corpFeatureTxt1680" onclick="if(!wasNotSubmittedYet()){return false;} gtag(&#39;event&#39;, &#39;clickcount_corp_outline&#39;, {&#39;click_content&#39;:&#39;特徴・特色が同じ企業&#39;,&#39;click_sub_content&#39;:&#39;アットホームな社風&#39;});">アットホームな社風</a></span>
+																								<span id="crpFeatureList.corpFeatureTxt1870" class="each"><a href="/27/pc/search/query.html?FE:1870/func=corpFooter" id="featureLink.corpFeatureTxt1870" onclick="if(!wasNotSubmittedYet()){return false;} gtag(&#39;event&#39;, &#39;clickcount_corp_outline&#39;, {&#39;click_content&#39;:&#39;特徴・特色が同じ企業&#39;,&#39;click_sub_content&#39;:&#39;資格取得支援制度あり&#39;});">資格取得支援制度あり</a></span>
+																								<span id="crpFeatureList.corpFeatureTxt1920" class="each"><a href="/27/pc/search/query.html?FE:1920/func=corpFooter" id="featureLink.corpFeatureTxt1920" onclick="if(!wasNotSubmittedYet()){return false;} gtag(&#39;event&#39;, &#39;clickcount_corp_outline&#39;, {&#39;click_content&#39;:&#39;特徴・特色が同じ企業&#39;,&#39;click_sub_content&#39;:&#39;完全週休2日制&#39;});">完全週休2日制</a></span>
+																								<span id="crpFeatureList.corpFeatureTxt1930" class="each"><a href="/27/pc/search/query.html?FE:1930/func=corpFooter" id="featureLink.corpFeatureTxt1930" onclick="if(!wasNotSubmittedYet()){return false;} gtag(&#39;event&#39;, &#39;clickcount_corp_outline&#39;, {&#39;click_content&#39;:&#39;特徴・特色が同じ企業&#39;,&#39;click_sub_content&#39;:&#39;社宅・家賃補助制度あり&#39;});">社宅・家賃補助制度あり</a></span>
+																								</td>
+																						</tr>
+																					</table>
+																				</dd>
+																			</dl>
+																		</div>
+																	<script type="text/javascript" src="/27/pc/resources/js/lib/jquery.cookie-20260210005843.js"></script>
+    <script type="text/javascript" src="/27/pc/resources/js/design/common/init_modal-20260210005843.js"></script>
+    <script type="text/javascript">
+
+    function doDeleteReserveListModal() {
+        if(modalDeleteMode=='0'){
+            ST.doDeleteBookmarkWithReserveAsync(modalViewId, modalCorpId);
+        } else if(modalDeleteMode=='1'){
+            doDelete();
+        }
+        cancelDeleteReserveListModal();
+    }
+
+    //画面を閉じる処理
+    function cancelDeleteReserveListModal() {
+        // 予約リスト削除確認ダイアログを表示する
+        $('#displayDeleteBookmarkListWithReserveModal').css("display", "none");
+
+    }
+    </script>
+
+    <div class="boxReserveAlert" style="display:none;" id="displayDeleteBookmarkListWithReserveModal">
+        <div class="inner">
+            <p class="hdg">予約リストからも削除されますがよろしいですか？</p>
+            <ul class="list-btn">
+                <li>
+                    <button type="button" class="btn-01 considerHookRsv agree" onclick="doDeleteReserveListModal();">削除</button>
+                </li>
+                <li>
+                    <button type="button" class="btn-01 considerHookRsv disagree" onclick="cancelDeleteReserveListModal();">キャンセル</button>
+                </li>
+            </ul>
+        </div>
+    </div><script type="text/javascript">
+
+Date.prototype.Format = function (fmt) {
+    var o = {
+        "M+": this.getMonth() + 1, //月
+        "D+": this.getDate(), //日
+        "h+": this.getHours(), //時
+        "m+": this.getMinutes(), //分
+        "s+": this.getSeconds(), //秒
+    };
+    if (/(Y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+    for (var k in o)
+    if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+    return fmt;
+}
+
+
+function doSendMail () {
+     // タイトル
+     var subjecttext =  document.getElementById("corpName").value + " - マイナビ" +  document.getElementById("serviceName").value;
+     // 本文
+     var bodytext = document.getElementById("corpName").value + '\n';
+     var url = document.getElementById("url").value;
+     var pattern = document.getElementById("screenPattern").value;
+     var week = ["Su","Mo","Tu","We","Th","Fr","Sa"];
+     var sysDate = new Date();
+     var day = week[sysDate.getDay()];
+     var utm_source = "utm_source=mailCorp";
+     var utm_medium = "&utm_medium=" + document.getElementById("mode").value + day;
+     var utm_campaign = "&utm_campaign=" + sysDate.Format("YYYYMMDD") + "Corp" + document.getElementById("corpIdMail").value;
+     bodytext = bodytext + url + pattern  + utm_source + utm_medium + utm_campaign;
+     var hleftext = 'subject=' + encodeURIComponent(subjecttext) + '&body=' + encodeURIComponent(bodytext);
+     location.href='mailto:?' + hleftext;
+        }
+</script>
+<input type="hidden" id="url" name="url" value="https://job.mynavi.jp">
+<input type="hidden" id="corpIdMail" name="corpIdMail" value="222914">
+<input type="hidden" id="corpName" name="corpName" value="(株)アミーゴ">
+<input type="hidden" id="serviceName" name="serviceName" value="2027">
+<input type="hidden" id="mode" name="mode" value="pc">
+    <input type="hidden" id="screenPattern" name="screenPattern" value="/27/pc/search/corp222914/outline.html?">
+    <p class="btn-top-01"><a href="#top">トップへ</a></p>
+</div>
+														<div>
+<input type="hidden" name="_csrf" value="ec6118bb-d661-492c-a39d-0a034f12a92f" />
+</div></form></div>
+														<div class="topicPathWrapper_pc">
+															<ol class="topicPath" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+			<a href="/27/pc/toppage/displayTopPage/index/" itemprop="item"><span  itemprop="name">トップ</span></a><meta itemprop="position" content="1" />
+		</li>
+		<li>(株)アミーゴの会社概要</li>
+			</ol>
+</div>
+														<div id="footer">
+															<address>Copyright &copy; Mynavi Corporation</address>
+														</div>
+														<!-- aICrawlingData --><!-- End aICrawlingData -->
+
+													<script type="text/javascript">
+	if (VMYNAVI === undefined) {
+		var VMYNAVI = {};
+		VMYNAVI.CONST = {};
+		VMYNAVI.CONST.CONTEXT_PATH = "/27/pc";
+		VMYNAVI.CONST.CTOKEN_NAME ='X-CSRF-TOKEN';
+		VMYNAVI.CONST.CTOKEN_VALUE ='ec6118bb-d661-492c-a39d-0a034f12a92f';
+		VMYNAVI.CONST.STU_NAVI_MYCOM_URL = "https://job.mynavi.jp/conts/2027"
+	};
+</script>
+<script src="/27/pc/resources/js/common-20260210005843.js" type="text/javascript"></script><script type="text/javascript" src="/27/pc/resources/js/corpinfo-20260210005843.js"></script>
+<script type="text/javascript" src="/27/pc/resources/js/extend-20260210005843.js"></script>
+<script type="text/javascript" src="/27/pc/resources/js/lib/slick-20260211123619.js"></script>
+<script type="text/javascript">
+var hikisuu = location.search;
+if(hikisuu == ""){
+	hikisuu = "none";
+}
+</script>
+<script>
+//▼GA4
+gtag('event', 'pageload_corp_outline', {
+	'argument': hikisuu,
+	'corp_id': 'id_222914'
+});
+</script>
+<script>
+// ------------------------------------
+// 会社概要ショートムービー停止
+// ------------------------------------
+// YouTube API の読み込み
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// APIが読み込まれるとonYouTubePlayerAPIReady関数が実行
+var players = [];
+
+function onYouTubeIframeAPIReady() {
+  var playerElements = document.querySelectorAll('.js-modal-movie div');
+
+  // 取得したIDを全て配列に格納
+  playerElements.forEach(function (element,index) {
+    var playerId = element.id;
+    var videoId = videoIds[index];
+
+    players.push(new YT.Player(playerId, {
+      videoId: videoId,
+      playerVars: {
+          playsinline: 1,
+          fs: 1,
+          loop: 0,
+          rel: 0
+      },
+      events: {
+        onReady: function (event) {
+          onPlayerReady(event, playerId);
+        }
+      }
+    }));
+  });
+}
+
+// モーダル内のボタンを押下した場合、動画を一時停止
+function onPlayerReady(event, playerId) {
+
+  // 音量をミュートする
+  event.target.mute();
+
+  // 一時停止させるボタンを取得
+  var pauseButtons = document.querySelectorAll('.close-test, .slick-prev, .slick-next');
+
+  // 各ボタンにクリックイベントを追加
+  pauseButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+
+      // 該当するプレーヤーを取得
+      var currentPlayer;
+      for (var i = 0; i < players.length; i++) {
+        if (players[i].getIframe().id == playerId) {
+          currentPlayer = players[i];
+          break;
+        }
+      }
+
+      // 動画を一時停止
+      if (currentPlayer) {
+        currentPlayer.pauseVideo();
+      }
+    });
+  });
+}
+</script></body>
+</html>

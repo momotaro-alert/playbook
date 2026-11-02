@@ -1,0 +1,3 @@
+URL: https://petfood.or.jp/data/
+取得日: 2026-11-02
+HTTPステータス: 200

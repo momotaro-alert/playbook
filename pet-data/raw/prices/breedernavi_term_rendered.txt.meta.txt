@@ -1,0 +1,5 @@
+URL: https://www.breeder-navi.jp/term
+取得日: 2026-11-02
+HTTPステータス: 200
+取得方法: Playwright(Chromium) で描画後の body innerText（ページ本体は Inertia.js でクライアント描画）
+該当条項: 135-137行目（無断転載禁止、クローリング・スクレイピング等の自動化手段によるデータ収集禁止）

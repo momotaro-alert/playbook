@@ -1,0 +1,3 @@
+URL: https://www.e-stat.go.jp/stat-search/file-download?statInfId=000012536419&fileKind=1
+取得日: 2026-11-02
+HTTPステータス: 200

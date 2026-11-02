@@ -1,0 +1,40 @@
+1. Reprod Domest Anim. 2017 Apr;52 Suppl 2:158-162. doi: 10.1111/rda.12845. Epub 
+2016 Nov 7.
+
+Reproductive performance and pre-weaning mortality: Preliminary analysis of 
+27,221 purebred female dogs and 204,537 puppies in France.
+
+Chastant-Maillard S(1), Guillemot C(1), Feugier A(2), Mariani C(2), Grellet 
+A(1)(2), Mila H(1).
+
+Author information:
+(1)NeoCare, IHAP, Reproduction, Université de Toulouse, INRA, Toulouse National 
+Veterinary School, Toulouse, France.
+(2)Royal Canin, Aimargues, France.
+
+The objective of this study was to describe efficiency of reproduction of 
+purebred dogs in field breeding conditions, from mating to weaning in France. 
+Data were collected between 2010 and 2014 in 5,667 French breeding kennels via a 
+reproduction management software (Breeding Management System, Royal Canin, 
+Aimargues, France). Effect of breed size (Mini: adult body weight <10 kg; 
+Medium: 10-25 kg; Maxi: 25-40 kg; Giant: >40 kg), age of dam and male on 
+pregnancy rate, abortion rate and litter size were evaluated by multivariable 
+models. Data on 45,913 heats (all with mating), from 27,221 bitches from 248 
+breeds, were analysed. At mating, mean age (±SD) was 3.1 ± 1.8 years for bitches 
+and 3.3 ± 2.0 for males. Males originated from the same kennel as the females in 
+88.5% of the matings. Based on breeder's evaluation of the pregnancy status, 
+pregnancy rate (number of pregnant females based on breeders declaration/number 
+of heats) was 87.8% and abortion rate was 6.8%. Finally, 81.9% of the mated 
+females gave birth to a litter. On 37,946 litters (204,537 puppies), mean litter 
+size was 5.4 ± 2.8 puppies (range 1-24), which was influenced by breed size and 
+dam age (p < .0001). Stillbirth rate was 7.4% and puppy mortality rate 
+(stillbirth + mortality until 2 months of age) was 13.4%. Prolificacy and puppy 
+mortality rates were affected by breed size and within a breed size, by breed. 
+Despite probable approximations (as data originate from breeders declaration), 
+this large-scale analysis provides reference values on reproductive performance 
+in dogs.
+
+© 2016 Blackwell Verlag GmbH.
+
+DOI: 10.1111/rda.12845
+PMID: 28402063 [Indexed for MEDLINE]

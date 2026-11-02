@@ -48,20 +48,23 @@ def events(ax, keys=None, ymax_frac=0.98, fontsize=7.5):
         if not (lo <= x <= hi):
             continue
         ax.axvline(x, color=GRAY, lw=0.9, ls=(0, (3, 3)), zorder=1)
-        ax.text(x, ytop * (ymax_frac - 0.11 * (i % 2)), lab, fontsize=fontsize,
-                color=INK2, ha="left", va="top",
-                bbox=dict(fc="#fcfcfb", ec="none", pad=0.5, alpha=0.85))
+        ax.text(x - (hi - lo) * 0.004, ytop * ymax_frac, lab.replace("\n", " "), fontsize=fontsize,
+                color=INK2, ha="right", va="top", rotation=90,
+                bbox=dict(fc="#fcfcfb", ec="none", pad=0.3, alpha=0.85))
 
 
 def finish(fig, title, source, path, subtitle=None):
     """タイトル=結論文、出典を図の下に小さく。"""
-    fig.suptitle("\n".join(textwrap.wrap(title, 38)), x=0.02, ha="left",
-                 fontsize=14, fontweight="bold", color=INK, y=0.995)
-    if subtitle:
-        fig.text(0.02, 0.905 if len(title) <= 38 else 0.865, subtitle,
-                 fontsize=9.5, color=INK2, ha="left", va="top")
-    fig.text(0.02, 0.01, "出典: " + source, fontsize=7, color=GRAY,
-             ha="left", va="bottom", wrap=True)
+    w, h = fig.get_size_inches()
+    tl = textwrap.wrap(title, int(w * 4.2))
+    sl = textwrap.wrap("出典: " + source, int(w * 10.5))
+    top = 1 - (0.42 * len(tl) + 0.15) / h
+    bot = (0.16 * len(sl) + 0.15) / h
+    fig.tight_layout(rect=[0, bot, 1, top])
+    fig.suptitle("\n".join(tl), x=0.01, ha="left", va="top",
+                 fontsize=14, color=INK, y=0.995)
+    fig.text(0.01, 0.005, "\n".join(sl), fontsize=7, color=GRAY,
+             ha="left", va="bottom")
     fig.savefig(path, dpi=160, bbox_inches="tight")
     plt.close(fig)
 

@@ -1,0 +1,3 @@
+URL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=28402063&rettype=abstract&retmode=text
+取得日: 2026-11-02
+HTTPステータス: 200

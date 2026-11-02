@@ -1,0 +1,3 @@
+URL: https://www.env.go.jp/council/14animal/y140-27/ext.html
+取得日: 2026-11-02
+HTTPステータス: 200
