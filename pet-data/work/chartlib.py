@@ -58,7 +58,7 @@ def finish(fig, title, source, path, subtitle=None):
     w, h = fig.get_size_inches()
     tl = textwrap.wrap(title, int(w * 4.2))
     sl = textwrap.wrap("出典: " + source, int(w * 10.5))
-    top = 1 - (0.42 * len(tl) + 0.15) / h
+    top = 1 - (0.3 * len(tl) + 0.1) / h
     bot = (0.16 * len(sl) + 0.15) / h
     fig.tight_layout(rect=[0, bot, 1, top])
     fig.suptitle("\n".join(tl), x=0.01, ha="left", va="top",
