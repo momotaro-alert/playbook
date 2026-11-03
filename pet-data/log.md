@@ -14,7 +14,8 @@
 ### Phase 0 準備
 - 作業規約を work/CONVENTIONS.md に置き、Phase 1〜4 を4人の担当（並行）に分けた。
 - web.archive.org はこの作業環境から接続できない（プロキシでトンネル切断）。リンク切れの補完に Wayback Machine は使えなかった → 各担当が別年度ページ・審議会資料・WebSearch で代替した。
-- GitHub への push は権限エラー（403：Claude の GitHub アプリにこのリポジトリへのアクセスがない）。コミットはローカルに保存。
+- GitHub への push：2026-11-02〜11-03 午前は権限エラー（403：Claude の GitHub アプリがアカウントに未インストール）で失敗し、コミットはローカルに保存していた。
+- 2026-11-03 にユーザーが GitHub 連携をつなぎ直した後、push に成功。`git ls-remote origin claude/japan-pet-industry-data-fxw0kx` が手元の HEAD（9dab236）と一致することを確認。以後のコミットも同じブランチに push している。
 
 ### 追加調査（親が実施）
 - 「殺処分ゼロ」の自治体定義：東京都（致死処分内訳PDF）・神奈川県（記者発表・別紙1）・国の3分類（広島県資料）・国の目標（中央環境審議会資料）を取得 → clean/殺処分ゼロ_自治体定義.csv、clean/東京都_致死処分内訳.csv

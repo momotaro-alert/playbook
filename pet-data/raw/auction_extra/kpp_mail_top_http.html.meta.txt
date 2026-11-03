@@ -1,0 +1,4 @@
+URL: http://kpp-mail.info/
+取得日: 2026-11-03
+HTTP: 200
+
