@@ -1,0 +1,12 @@
+- 2026-11-12 20:46 JST　robots.txt 確認：Disallow=['/wp-admin/', '/wp-content/uploads/wpo/wpo-plugins-tables-list.json']
+- 2026-11-12 20:46 JST　REST: 里親募集（category=dogcat）156件
+- 2026-11-12 20:49 JST　[Coo&RIKU譲渡] robots.txt 確認：Disallow=['/wp-admin/', '/mwf_244216/', '/breeder/*/confirm/', '/breeder/*/thanks/', '/pickup_service/']（/protection/ は対象外）
+- 2026-11-12 20:50 JST　[Coo&RIKU譲渡] 譲渡犬 340頭を保存（サイト表示 全340件、累計『今までに15964頭の家族が決まりました』、最新登録日 2026/11/11）
+- 2026-11-12 21:15 JST　【中止】anifare.jp の利用規約（https://anifare.jp/terms/ 「禁止事項」）に「スクレイピングなど本サイト上の情報を不適切な方法で取得する行為」があることを、取得の途中で確認。全件取得（詳細ページ 約120/156頭まで進行）をその場で停止した。取得途中のデータはメモリ上にしかなく、保存していない（スナップショット・生HTMLとも未作成）。robots.txt は一覧・詳細とも禁止していないが、規約が明示的に禁じているため、海斗さんの判断を仰ぐまで再開しない。
+- 2026-11-12 21:15 JST　反省：robots.txt だけを見て取得を始め、利用規約の確認が後になった。OMUSUBI では規約を先に見て止めたのに、本体のアニフェアで順序を誤った。work/anifare_weekly.py は判断が出るまで実行しないこと。
+- 2026-11-12 21:15 JST　並行アクセスの記録：全件取得の実行中に、法人情報の調査（別の経路）が anifare.jp の固定ページ 約20ページを読んだ。指示書の「並列アクセスしない」に反する時間帯があった。
+- 2026-11-12 21:15 JST　OMUSUBI（omusubi.petokoto.com）：利用規約が「データマイニングその他の目的で情報をダウンロードし保持してデータベースを作成する行為、ロボット等の利用」を禁止。構造確認の4ページのみで中止、データ保存なし。
+- 2026-11-12 21:15 JST　ペットのおうち（pet-home.jp）：robots.txt の取得時点で Cloudflare にブロックされた。回避せず中止。
+- 2026-11-12 21:15 JST　いつでも里親募集中（satoya-boshu.net）：robots.txt なし（404）。規約は「使用・複製・転載…は事前の書面による了承を除き禁止」。取得せず。
+- 2026-11-12 21:15 JST　Googleマップ口コミ：/maps/place/ は robots.txt で許可、口コミ本文の読み込み経路（/maps/rpc/ 以下）は Disallow: /maps/ に該当する禁止パス。取得せず、判断を仰ぐ。
+- 2026-11-12 21:15 JST　Wayback Machine：web.archive.org はこの環境から接続できない（接続リセット）。archive.org の存在確認APIだけ応答。過去スナップショットの本文は1件も読めていない。
