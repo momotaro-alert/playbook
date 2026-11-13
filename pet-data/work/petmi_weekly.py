@@ -413,7 +413,15 @@ def main():
             return 1
         prev_dates = sorted(load_snaps())
         prev = load_snaps()[prev_dates[-1]] if prev_dates else None
-        df = crawl()
+        ck_list = os.path.join(PM, f"_crawl_{TODAY}.csv")   # 途中保存（再起動で止まっても続きから）
+        ck_det = os.path.join(PM, f"_checked_{TODAY}.csv")
+        if os.path.exists(ck_list):
+            df = pd.read_csv(ck_list, dtype={"個体ID": str})
+            log(f"途中保存の一覧 {len(df):,}件を再利用（{TODAY}）")
+        else:
+            df = crawl()
+            if len(df):
+                df.to_csv(ck_list, index=False, encoding="utf-8-sig")
         if len(df) == 0:
             log("取得0件。サイト構造が変わった可能性。スナップショットは保存しない")
             return 1
@@ -422,8 +430,16 @@ def main():
             gone = prev[~prev["個体ID"].isin(df["個体ID"])]
             log(f"前回（{prev_dates[-1]}）にいて今回の一覧にいない個体 {len(gone):,}件 → 詳細ページを確認")
             rec = []
+            done = {}
+            if os.path.exists(ck_det):
+                dd = pd.read_csv(ck_det, dtype={"個体ID": str})
+                done = {x["個体ID"]: x for x in dd.to_dict("records")}
+                log(f"途中保存の詳細確認 {len(done):,}件を再利用")
             for i, (_, r) in enumerate(gone.iterrows()):
-                st, price, code = check_detail(r["掲載URL"])
+                if r["個体ID"] in done:
+                    x = done[r["個体ID"]]; st, price, code = x["確認結果"], x["詳細ページ価格"], x["HTTP"]
+                else:
+                    st, price, code = check_detail(r["掲載URL"])
                 checked.append(st)
                 rec.append(dict(個体ID=r["個体ID"], 確認日=TODAY, 確認結果=st, HTTP=code, 詳細ページ価格=price, 掲載URL=r["掲載URL"]))
                 if st == "掲載継続（一覧で見落とし）":
@@ -433,10 +449,14 @@ def main():
                     newly_gone.append(r["個体ID"])
                 if (i + 1) % 200 == 0:
                     print(f"  詳細確認 {i + 1}/{len(gone)}", flush=True)
+                    pd.DataFrame(rec).to_csv(ck_det, index=False, encoding="utf-8-sig")
             gp = os.path.join(PM, "disappeared.csv")
             pd.DataFrame(rec).to_csv(gp, mode="a", header=not os.path.exists(gp), index=False, encoding="utf-8-sig")
         df.to_csv(os.path.join(SNAP, f"{TODAY}.csv"), index=False, encoding="utf-8-sig")
         log(f"スナップショット保存 snapshots/{TODAY}.csv（{len(df):,}件）")
+        for f in (ck_list, ck_det):
+            if os.path.exists(f):
+                os.remove(f)
     snaps = load_snaps()
     panel = build_panel(snaps)
     survival(panel)

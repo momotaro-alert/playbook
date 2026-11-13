@@ -10,3 +10,7 @@
 - 2026-11-12 21:15 JST　いつでも里親募集中（satoya-boshu.net）：robots.txt なし（404）。規約は「使用・複製・転載…は事前の書面による了承を除き禁止」。取得せず。
 - 2026-11-12 21:15 JST　Googleマップ口コミ：/maps/place/ は robots.txt で許可、口コミ本文の読み込み経路（/maps/rpc/ 以下）は Disallow: /maps/ に該当する禁止パス。取得せず、判断を仰ぐ。
 - 2026-11-12 21:15 JST　Wayback Machine：web.archive.org はこの環境から接続できない（接続リセット）。archive.org の存在確認APIだけ応答。過去スナップショットの本文は1件も読めていない。
+- 2026-11-13 JST　第0回：2026-11-12 20時台に取得済みのサイトマップ（post-sitemap1.xml）から里親募集ページ156件を snapshots/2026-11-12.csv に取り込み
+- 2026-11-13 14:05 JST　robots.txt 確認：Sitemap=['https://anifare.jp/sitemaps.xml']、Disallow=['/wp-admin/', '/wp-content/uploads/wpo/wpo-plugins-tables-list.json', '/', '/']
+- 2026-11-13 14:05 JST　サイトマップ：里親募集ページ 168件
+- 2026-11-13 14:05 JST　スナップショット保存 snapshots/2026-11-13.csv（168頭）

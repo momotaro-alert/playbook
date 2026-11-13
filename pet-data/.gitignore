@@ -1,0 +1,3 @@
+__pycache__/
+petmi/_crawl_*.csv
+petmi/_checked_*.csv
