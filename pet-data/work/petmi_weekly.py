@@ -398,6 +398,9 @@ def survival(panel):
     pd.DataFrame(out).to_csv(os.path.join(PM, "残存率.csv"), index=False, encoding="utf-8-sig")
 
 
+T_START = time.time()
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-fetch", action="store_true")
@@ -413,6 +416,10 @@ def main():
             return 1
         prev_dates = sorted(load_snaps())
         prev = load_snaps()[prev_dates[-1]] if prev_dates else None
+        global TODAY
+        pend = sorted(glob.glob(os.path.join(PM, "_crawl_*.csv")))
+        if pend:   # 途中の回があれば、その回の日付のまま続ける（日付をまたいでも同じ回として扱う）
+            TODAY = os.path.basename(pend[-1])[7:17]
         ck_list = os.path.join(PM, f"_crawl_{TODAY}.csv")   # 途中保存（再起動で止まっても続きから）
         ck_det = os.path.join(PM, f"_checked_{TODAY}.csv")
         if os.path.exists(ck_list):
@@ -450,6 +457,9 @@ def main():
                 if (i + 1) % 200 == 0:
                     print(f"  詳細確認 {i + 1}/{len(gone)}", flush=True)
                     pd.DataFrame(rec).to_csv(ck_det, index=False, encoding="utf-8-sig")
+                    if time.time() - T_START > 95 * 60:   # 1回の実行は約95分まで。続きは同じコマンドをもう一度
+                        log(f"時間切れのため中断（詳細確認 {i + 1}/{len(gone)}）。同じコマンドをもう一度実行すると続きから再開する")
+                        return 3
             gp = os.path.join(PM, "disappeared.csv")
             pd.DataFrame(rec).to_csv(gp, mode="a", header=not os.path.exists(gp), index=False, encoding="utf-8-sig")
         df.to_csv(os.path.join(SNAP, f"{TODAY}.csv"), index=False, encoding="utf-8-sig")
