@@ -17,3 +17,9 @@
 - 2026-11-14 22:12 JST　robots.txt 確認：Sitemap=['https://anifare.jp/sitemaps.xml']、Disallow=['/wp-admin/', '/wp-content/uploads/wpo/wpo-plugins-tables-list.json', '/', '/']
 - 2026-11-14 22:12 JST　サイトマップ：里親募集ページ 151件
 - 2026-11-14 22:12 JST　スナップショット保存 snapshots/2026-11-14.csv（151頭）
+- 2026-11-14 22:16 JST　【承認】海斗さんがRSSフィード（/category/dogcat/feed/）の利用を承認（チャットで「rss ok」）。以後の定点観測は --rss を付けて実行する。個別ページ（/dogcat/ID/）は引き続き読まない
+- 2026-11-14 22:16 JST　robots.txt 確認：Sitemap=['https://anifare.jp/sitemaps.xml']、Disallow=['/wp-admin/', '/wp-content/uploads/wpo/wpo-plugins-tables-list.json', '/', '/']
+- 2026-11-14 22:17 JST　サイトマップ：里親募集ページ 151件
+- 2026-11-14 22:18 JST　RSS：151頭（16ページ）
+- 2026-11-14 22:18 JST　サイトマップ 151件のうち RSS で中身が取れたのは 151件
+- 2026-11-14 22:18 JST　スナップショット保存 snapshots/2026-11-14.csv（151頭）

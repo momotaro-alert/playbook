@@ -141,3 +141,39 @@ summary = dict(
 )
 pd.Series(summary).to_csv(OUT / "集計サマリー.csv", header=["値"], encoding="utf-8-sig")
 print(pd.Series(summary).to_string()); print(flow.to_string()); print(top15[["アニフェア_頭数", "アニフェア_割合%", "CooRIKU譲渡_割合%", "ペットミー店頭_割合%", "ペットミー店頭_順位"]].to_string())
+
+# ---------- 4. アニフェア RSS（1頭ごとの中身）----------
+rs = [p for p in snaps if "生年月日" in pd.read_csv(p, nrows=1).columns]
+if rs:
+    R = rs[-1].stem
+    a = pd.read_csv(rs[-1], dtype=str).fillna("")
+    a["年齢_歳"] = [(pd.Timestamp(R) - pd.Timestamp(b)).days / 365.25 if b else np.nan for b in a["生年月日"]]
+    a["年齢_階級"] = np.floor(a["年齢_歳"])
+    org = a["出どころ分類"].value_counts()
+    org.rename("頭数").to_frame().assign(**{"割合%": (org / len(a) * 100).round(1)}).to_csv(OUT / "アニフェア_出どころ.csv", encoding="utf-8-sig")
+    ah = a.dropna(subset=["年齢_歳"]).groupby(["年齢_階級", "出どころ分類"]).size().unstack(fill_value=0)
+    ah.index = ah.index.astype(int); ah.to_csv(OUT / "アニフェア_年齢1歳刻み.csv", encoding="utf-8-sig")
+    pd.crosstab(a["出どころ分類"], a["避妊去勢"]).to_csv(OUT / "アニフェア_出どころと避妊去勢.csv", encoding="utf-8-sig")
+    v = a.dropna(subset=["年齢_歳"]); n = len(v)
+    fig, axs = plt.subplots(1, 2, figsize=(11, 4.8), sharey=False)
+    xs = np.arange(0, 11)
+    b = ah.reindex(xs, fill_value=0)
+    axs[0].bar(xs, b.get("ブリーダー由来", 0), color=CAT, label=f"「ブリーダーの元で里親募集をしていた子」（{org.get('ブリーダー由来', 0)}頭）")
+    axs[0].bar(xs, b.get("家庭由来", 0), bottom=b.get("ブリーダー由来", 0), color=DOG, label=f"「やむを得ない事情で飼えなくなった子」（{org.get('家庭由来', 0)}頭）")
+    axs[0].set_title(f"アニフェア（{R}、生年月日のある{n}頭）", fontsize=11); axs[0].legend(frameon=False, fontsize=8.5, loc="upper left")
+    c2 = coo.groupby("年齢_階級").size().reindex(xs, fill_value=0)
+    axs[1].bar(xs, c2, color=DOG_L); axs[1].set_title(f"Coo&RIKUの譲渡犬（2026-11-12、{len(coo)}頭）", fontsize=11)
+    for ax in axs:
+        ax.set_xticks(xs); ax.set_xticklabels([f"{i}歳" for i in xs], fontsize=9); ax.set_ylabel("頭数")
+        ax.grid(axis="y", alpha=.25); [ax.spines[s].set_visible(False) for s in ("top", "right")]
+    axs[0].set_ylim(0, b.sum(axis=1).max() * 1.45)
+    m46 = ((v["年齢_歳"] >= 4) & (v["年齢_歳"] < 7)).sum()
+    finish(fig, f"アニフェアの掲載犬は4〜6歳が{m46 / n * 100:.0f}%。1歳未満と7歳以上は1頭もいない",
+           "anifare.jp のRSSフィード（生年月日から年齢を計算）、pet-coo.com 譲渡犬一覧", CH / "A4_年齢分布_アニフェアとCooRIKU.png")
+    s2 = dict(RSS取得日=R, RSS頭数=len(a), ブリーダー由来=int(org.get("ブリーダー由来", 0)), 家庭由来=int(org.get("家庭由来", 0)),
+              ブリーダー由来割合=round(org.get("ブリーダー由来", 0) / len(a) * 100, 1), 生年月日あり=n,
+              年齢最小=round(v["年齢_歳"].min(), 2), 年齢最大=round(v["年齢_歳"].max(), 2), 年齢中央値=round(v["年齢_歳"].median(), 2),
+              歳4から6=int(m46), 歳4から6割合=round(m46 / n * 100, 1), 歳1から3=int(((v["年齢_歳"] >= 1) & (v["年齢_歳"] < 4)).sum()),
+              歳2から3=int(((v["年齢_歳"] >= 2) & (v["年齢_歳"] < 4)).sum()), 避妊去勢_未=int((a["避妊去勢"] == "未").sum()), 避妊去勢_済=int((a["避妊去勢"] == "済").sum()))
+    pd.Series({**summary, **s2}).to_csv(OUT / "集計サマリー.csv", header=["値"], encoding="utf-8-sig")
+    print(pd.Series(s2).to_string())
