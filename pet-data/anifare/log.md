@@ -14,3 +14,6 @@
 - 2026-11-13 14:05 JST　robots.txt 確認：Sitemap=['https://anifare.jp/sitemaps.xml']、Disallow=['/wp-admin/', '/wp-content/uploads/wpo/wpo-plugins-tables-list.json', '/', '/']
 - 2026-11-13 14:05 JST　サイトマップ：里親募集ページ 168件
 - 2026-11-13 14:05 JST　スナップショット保存 snapshots/2026-11-13.csv（168頭）
+- 2026-11-14 22:12 JST　robots.txt 確認：Sitemap=['https://anifare.jp/sitemaps.xml']、Disallow=['/wp-admin/', '/wp-content/uploads/wpo/wpo-plugins-tables-list.json', '/', '/']
+- 2026-11-14 22:12 JST　サイトマップ：里親募集ページ 151件
+- 2026-11-14 22:12 JST　スナップショット保存 snapshots/2026-11-14.csv（151頭）
