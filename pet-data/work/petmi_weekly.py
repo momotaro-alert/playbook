@@ -208,7 +208,7 @@ def check_detail(url):
     t = r.text
     if re.search(r"ご家族が決まりました|家族が決まりました|売約済|SOLD", t):
         return "決まりました表示", None, "200"
-    if re.search(r"掲載(は)?終了|販売終了|現在.*掲載されていません|お探しのページ", t):
+    if re.search(r"掲載(は|が)?終了|販売終了|現在.*掲載されていません|お探しのページ", t):
         return "掲載終了表示", None, "200"
     s = BeautifulSoup(t, "html.parser")
     p = s.select_one(".price")
