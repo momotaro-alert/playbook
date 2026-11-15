@@ -23,3 +23,8 @@
 - 2026-11-14 22:18 JST　RSS：151頭（16ページ）
 - 2026-11-14 22:18 JST　サイトマップ 151件のうち RSS で中身が取れたのは 151件
 - 2026-11-14 22:18 JST　スナップショット保存 snapshots/2026-11-14.csv（151頭）
+- 2026-11-16 02:46 JST　robots.txt 確認：Sitemap=['https://anifare.jp/sitemaps.xml']、Disallow=['/wp-admin/', '/wp-content/uploads/wpo/wpo-plugins-tables-list.json', '/', '/']
+- 2026-11-16 02:47 JST　サイトマップ：里親募集ページ 145件
+- 2026-11-16 02:48 JST　RSS：145頭（15ページ）
+- 2026-11-16 02:48 JST　サイトマップ 145件のうち RSS で中身が取れたのは 145件
+- 2026-11-16 02:48 JST　スナップショット保存 snapshots/2026-11-16.csv（145頭）
